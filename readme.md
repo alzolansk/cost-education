@@ -1,22 +1,17 @@
-🌐 Análise Comparativa de Custo da Educação Internacional
+# 🌐 Análise Comparativa de Custo da Educação Internacional
 
 Este projeto tem como objetivo analisar e comparar o custo total de educação internacional entre diferentes países, com foco em estudantes internacionais. A análise destaca a posição do Brasil em relação aos 10 países com os maiores custos.
 
-📁 Dataset Utilizado
+# 📁 Dataset Utilizado
 
 Fonte: Kaggle (Cost of International Education)
 
 Colunas utilizadas:
+Country, University, Level, Duration_Years, Tuition_USD, Rent_USD, Insurance_USD, Exchange_Rate (para referência)
 
-Country, University, Level, Duration_Years
+# ⚙️ Etapas do Projeto
 
-Tuition_USD, Rent_USD, Insurance_USD
-
-Exchange_Rate (para referência)
-
-⚙️ Etapas do Projeto
-
-Importação e filtragem das colunas relevantes
+## Importação e filtragem das colunas relevantes
 
 Conversão de valores monetários para BRL utilizando cotação atual via AwesomeAPI
 
@@ -32,9 +27,9 @@ Exportação dos dados tratados para CSV
 
 Visualizações com Matplotlib e Seaborn
 
-🔍 Visualização Destacada
+# 🔍 Visualização Destacada
 
-Comparativo de Custo Total entre Brasil e Top 10 países mais caros:
+## Comparativo de Custo Total entre Brasil e Top 10 países mais caros:
 ![Exemplo de gráfico](assets/grafico_custo_total.png)
 
 A média brasileira é de R$ 98.145
@@ -43,7 +38,7 @@ Os EUA lideram com média de R$ 722.150, mais de 7x superior
 
 Países como Irlanda e Israel também têm custo significativamente maior
 
-🧰 Principais Insights
+# 🧰 Principais Insights
 
 O Brasil possui um dos menores custos médios totais de educação internacional entre os países analisados.
 
@@ -53,7 +48,7 @@ Mesmo países considerados "acessíveis" como Irlanda e Israel ainda representam
 
 O Brasil é uma alternativa financeiramente vantajosa para estudantes locais e internacionais.
 
-📚 Tecnologias Utilizadas
+# 📚 Tecnologias Utilizadas
 
 Python 3.12
 
@@ -63,7 +58,7 @@ Matplotlib, Seaborn
 
 Requests, locale
 
-💾 Como Reproduzir
+# 💾 Como Reproduzir
 
 1. Clone este repositório: 
 git clone https://github.com/seuusuario/custo-educacao-internacional.git
