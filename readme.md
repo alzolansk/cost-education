@@ -30,7 +30,7 @@ Visualizações com Matplotlib e Seaborn
 # 🔍 Visualização Destacada
 
 ## Comparativo de Custo Total entre Brasil e Top 10 países mais caros:
-![Exemplo de gráfico](assets/grafico_custo_total.png)
+![Gráfico Comparativo](assets/grafico_custo_total.png)
 
 A média brasileira é de R$ 98.145
 
