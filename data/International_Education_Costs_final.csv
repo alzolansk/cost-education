@@ -1,0 +1,908 @@
+Country,City,University,Program,Level,Duration_Years,Tuition_USD,Rent_USD,Insurance_USD,Tuition_BRL,Rent_BRL,Insurance_BRL,Custo_Total_BRL
+USA,Cambridge,Harvard University,Computer Science,Master,2.0,55400,2200,1500,313564,12452,8490,629392
+UK,London,Imperial College London,Data Science,Master,1.0,41200,1800,800,233192,10188,4528,359976
+Canada,Toronto,University of Toronto,Business Analytics,Master,2.0,38500,1600,900,217910,9056,5094,445442
+Australia,Melbourne,University of Melbourne,Engineering,Master,2.0,42000,1400,650,237720,7924,3679,435254
+Germany,Munich,Technical University of Munich,Mechanical Engineering,Master,2.0,500,1100,550,2830,6226,3113,158480
+Japan,Tokyo,University of Tokyo,Information Science,Master,2.0,8900,1300,750,50374,7358,4245,235456
+Netherlands,Amsterdam,University of Amsterdam,Artificial Intelligence,Master,1.0,15800,1500,720,89428,8490,4075,195383
+Singapore,Singapore,National University of Singapore,Finance,Master,1.5,35000,1900,800,198100,10754,4528,398464
+France,Paris,Sorbonne University,International Relations,Master,2.0,4500,1400,650,25470,7924,3679,223004
+Switzerland,Zurich,ETH Zurich,Physics,Master,2.0,1460,2100,1200,8264,11886,6792,307112
+Sweden,Stockholm,KTH Royal Institute,Sustainable Technology,Master,2.0,0,1200,400,0,6792,2264,167536
+Denmark,Copenhagen,University of Copenhagen,Bioinformatics,Master,2.0,0,1300,450,0,7358,2547,181686
+China,Beijing,Tsinghua University,Computer Engineering,Master,2.5,8900,800,400,50374,4528,2264,191874
+South Korea,Seoul,Seoul National University,Digital Media,Master,2.0,7200,900,500,40752,5094,2830,168668
+Ireland,Dublin,Trinity College Dublin,Data Analytics,Master,1.0,28900,1600,650,163574,9056,3679,275925
+South Korea,Busan,Pusan National University,Business,Bachelor,4.0,5900,700,500,33394,3962,2830,234890
+New Zealand,Auckland,University of Auckland,Marine Biology,Bachelor,3.0,28500,1200,600,161310,6792,3396,416010
+Austria,Vienna,University of Vienna,Social Sciences,Bachelor,3.0,1500,950,500,8490,5377,2830,210552
+Belgium,Brussels,KU Leuven,Biomedical Sciences,Bachelor,3.0,3500,1000,550,19810,5660,3113,232909
+USA,Ann Arbor,University of Michigan,Aerospace Engineering,Bachelor,4.0,52300,1800,1500,296018,10188,8490,819002
+USA,Atlanta,Georgia Tech,Industrial Engineering,Bachelor,4.0,43800,1700,1500,247908,9622,8490,743724
+USA,Austin,UT Austin,Chemical Engineering,Bachelor,4.0,40900,1600,1500,231494,9056,8490,700142
+UK,Bristol,University of Bristol,Mathematics,Bachelor,3.0,31200,1100,800,176592,6226,4528,414312
+Canada,Ottawa,University of Ottawa,Political Science,Bachelor,4.0,28900,1300,900,163574,7358,5094,537134
+Hong Kong,Hong Kong,HKUST,Finance,Bachelor,4.0,22000,1500,600,124520,8490,3396,545624
+Portugal,Lisbon,University of Lisbon,Architecture,Bachelor,3.0,3500,800,450,19810,4528,2547,190459
+Israel,Tel Aviv,Tel Aviv University,Computer Science,Bachelor,3.0,12000,1200,800,67920,6792,4528,326016
+Taiwan,Taipei,National Taiwan University,Electronics Engineering,Bachelor,4.0,5200,700,450,29432,3962,2547,229796
+Czech Republic,Prague,Charles University,Medicine,Bachelor,3.0,9800,650,400,55468,3679,2264,194704
+USA,Stanford,Stanford University,Computer Science,PhD,5.0,54200,2300,1500,306772,13018,8490,1130302
+USA,Boston,MIT,Electrical Engineering,PhD,5.0,53800,2200,1500,304508,12452,8490,1094078
+UK,Oxford,University of Oxford,Biomedical Sciences,PhD,4.0,29800,1600,800,168668,9056,4528,621468
+UK,Cambridge,University of Cambridge,Physics,PhD,4.0,31200,1700,800,176592,9622,4528,656560
+Germany,Heidelberg,Heidelberg University,Molecular Biology,PhD,3.0,500,900,550,2830,5094,3113,195553
+Switzerland,Basel,ETH Basel,Pharmaceutical Sciences,PhD,4.0,1500,1800,1200,8490,10188,6792,524682
+Netherlands,Delft,TU Delft,Robotics,PhD,4.0,4800,1200,720,27168,6792,4075,369484
+Singapore,Singapore,NTU Singapore,Data Science,PhD,4.0,8900,1600,800,50374,9056,4528,503174
+Canada,Waterloo,University of Waterloo,Quantum Computing,PhD,4.0,21500,1300,900,121690,7358,5094,495250
+Australia,Canberra,Australian National University,Climate Science,PhD,4.0,29800,1400,650,168668,7924,3679,563736
+Sweden,Lund,Lund University,Neuroscience,PhD,4.0,0,1000,400,0,5660,2264,280736
+USA,San Diego,UC San Diego,Computer Science,Bachelor,4.0,44200,1900,1500,250172,10754,8490,800324
+USA,Seattle,University of Washington,Computer Science,Master,2.0,38900,2000,1500,220174,11320,8490,508834
+Canada,Edmonton,University of Alberta,Computer Science,PhD,4.0,22800,1200,900,129048,6792,5094,475440
+UK,Glasgow,University of Glasgow,Computer Science,Master,1.0,33500,1100,800,189610,6226,4528,268850
+India,Bangalore,Indian Institute of Science,Computer Science,Master,2.0,2500,500,300,14150,2830,1698,85466
+Denmark,Aalborg,Aalborg University,Computer Science,Bachelor,3.0,0,900,450,0,5094,2547,191025
+Poland,Warsaw,University of Warsaw,Computer Science,Master,2.0,3800,650,350,21508,3679,1981,113766
+Ireland,Galway,NUI Galway,Computer Science,Bachelor,4.0,25800,1100,650,146028,6226,3679,459592
+South Korea,Daejeon,KAIST,Computer Science,PhD,4.0,6900,700,500,39054,3962,2830,240550
+Malaysia,Kuala Lumpur,University of Malaya,Computer Science,Bachelor,4.0,4800,500,300,27168,2830,1698,169800
+USA,Berkeley,UC Berkeley,Computer Science,Bachelor,4.0,44900,2100,1500,254134,11886,8490,858622
+UK,Manchester,University of Manchester,Economics,Bachelor,3.0,32000,1200,800,181120,6792,4528,439216
+Canada,Vancouver,University of British Columbia,Psychology,Bachelor,4.0,31200,1700,900,176592,9622,5094,658824
+Australia,Sydney,University of Sydney,Business,Bachelor,3.0,35000,1600,650,198100,9056,3679,535153
+Germany,Berlin,Free University of Berlin,International Business,Bachelor,3.0,0,900,550,0,5094,3113,192723
+Spain,Barcelona,University of Barcelona,Architecture,Bachelor,4.0,2800,950,500,15848,5377,2830,285264
+Italy,Milan,Politecnico di Milano,Design,Bachelor,3.0,4200,1100,650,23772,6226,3679,258945
+Netherlands,Rotterdam,Erasmus University,Economics,Bachelor,3.0,11200,1300,720,63392,7358,4075,340505
+Finland,Helsinki,University of Helsinki,Computer Science,Bachelor,3.0,0,1100,400,0,6226,2264,230928
+Norway,Oslo,University of Oslo,Environmental Science,Bachelor,3.0,0,1400,450,0,7924,2547,292905
+Japan,Osaka,Osaka University,Engineering,Bachelor,4.0,6800,900,750,38488,5094,4245,299980
+Japan,Kyoto,Kyoto University,Computer Science,Master,2.0,8500,900,750,48110,5094,4245,178856
+Japan,Nagoya,Nagoya University,Information Science,Bachelor,4.0,7800,750,750,44148,4245,4245,264888
+Japan,Sendai,Tohoku University,Software Engineering,Master,2.0,8200,650,750,46412,3679,4245,143198
+Japan,Fukuoka,Kyushu University,Computer Engineering,Bachelor,4.0,7500,600,750,42450,3396,4245,222438
+Japan,Sapporo,Hokkaido University,Data Science,Master,2.0,8100,550,750,45846,3113,4245,129048
+Japan,Tokyo,Tokyo Institute of Technology,Artificial Intelligence,PhD,3.0,8900,1100,750,50374,6226,4245,287245
+Japan,Tsukuba,University of Tsukuba,Information Systems,Bachelor,4.0,7200,600,750,40752,3396,4245,220740
+Japan,Kobe,Kobe University,Computer Science,Master,2.0,7900,700,750,44714,3962,4245,148292
+Japan,Kanazawa,Kanazawa University,Software Engineering,Bachelor,4.0,7100,500,750,40186,2830,4245,193006
+Japan,Hiroshima,Hiroshima University,Information Technology,Master,2.0,7600,550,750,43016,3113,4245,126218
+Australia,Adelaide,University of Adelaide,Computer Science,Bachelor,3.0,32800,1100,650,185648,6226,3679,420821
+Australia,Perth,University of Western Australia,Software Engineering,Master,2.0,34500,1200,650,195270,6792,3679,365636
+Australia,Gold Coast,Griffith University,Information Technology,Bachelor,3.0,31200,1100,650,176592,6226,3679,411765
+Australia,Hobart,University of Tasmania,Data Science,Master,2.0,30800,950,650,174328,5377,3679,310734
+Australia,Newcastle,University of Newcastle,Computer Engineering,Bachelor,4.0,31500,1000,650,178290,5660,3679,464686
+Australia,Wollongong,University of Wollongong,Artificial Intelligence,Master,2.0,32900,1050,650,186214,5943,3679,336204
+Australia,Darwin,Charles Darwin University,Information Systems,Bachelor,3.0,29800,900,650,168668,5094,3679,363089
+Australia,Townsville,James Cook University,Data Analytics,Master,2.0,31200,950,650,176592,5377,3679,312998
+Australia,Sunshine Coast,USC,Software Development,Bachelor,3.0,29500,1000,650,166970,5660,3679,381767
+Australia,Armidale,University of New England,Computing Science,Master,2.0,30500,850,650,172630,4811,3679,295452
+Germany,Dresden,TU Dresden,Computer Science,Master,2.0,500,750,550,2830,4245,3113,110936
+Germany,Stuttgart,University of Stuttgart,Software Engineering,Bachelor,3.0,450,850,550,2547,4811,3113,185082
+Germany,Hamburg,TU Hamburg,Data Engineering,Master,2.0,500,950,550,2830,5377,3113,138104
+Germany,Aachen,RWTH Aachen,Computer Engineering,Bachelor,3.0,500,700,550,2830,3962,3113,154801
+Germany,Karlsruhe,KIT,Artificial Intelligence,Master,2.0,500,800,550,2830,4528,3113,117728
+Germany,Darmstadt,TU Darmstadt,Information Systems,Bachelor,3.0,450,750,550,2547,4245,3113,164706
+Germany,Braunschweig,TU Braunschweig,Software Systems,Master,2.0,500,650,550,2830,3679,3113,97352
+Germany,Jena,University of Jena,Data Science,Bachelor,3.0,450,600,550,2547,3396,3113,134142
+Germany,Hannover,Leibniz University,Digital Engineering,Master,2.0,500,750,550,2830,4245,3113,110936
+Germany,Freiburg,University of Freiburg,Robotics & AI,Master,2.0,500,800,550,2830,4528,3113,117728
+USA,Philadelphia,University of Pennsylvania,Computer Science,Master,2.0,51900,1900,1500,293754,10754,8490,568830
+USA,Chicago,University of Chicago,Data Analytics,Master,2.0,52400,2000,1500,296584,11320,8490,585244
+USA,Baltimore,Johns Hopkins,Artificial Intelligence,PhD,5.0,53600,1700,1500,303376,9622,8490,923146
+USA,Nashville,Vanderbilt University,Computer Engineering,Bachelor,4.0,50800,1600,1500,287528,9056,8490,756176
+USA,Durham,Duke University,Software Engineering,Master,2.0,51500,1500,1500,291490,8490,8490,512230
+USA,Madison,University of Wisconsin,Computer Science,PhD,5.0,38200,1400,1500,216212,7924,8490,734102
+USA,Tempe,Arizona State University,Information Technology,Bachelor,4.0,41200,1300,1500,233192,7358,8490,620336
+USA,Boulder,University of Colorado,Data Science,Master,2.0,39800,1600,1500,225268,9056,8490,459592
+USA,Minneapolis,University of Minnesota,Computer Science,Bachelor,4.0,42500,1500,1500,240550,8490,8490,682030
+USA,Davis,UC Davis,Computer Engineering,Master,2.0,42800,1700,1500,242248,9622,8490,490156
+UK,London,University College London,Computer Science,Master,1.0,39200,1900,800,221872,10754,4528,355448
+UK,Leeds,University of Leeds,Software Engineering,Bachelor,3.0,28500,950,800,161310,5377,4528,368466
+UK,Warwick,University of Warwick,Data Science,Master,1.0,36800,1000,800,208288,5660,4528,280736
+UK,Sheffield,University of Sheffield,Artificial Intelligence,PhD,3.0,27900,850,800,157914,4811,4528,344694
+UK,Birmingham,University of Birmingham,Computer Engineering,Bachelor,3.0,29500,950,800,166970,5377,4528,374126
+UK,Southampton,University of Southampton,Cybersecurity,Master,1.0,32400,900,800,183384,5094,4528,249040
+UK,Nottingham,University of Nottingham,Computer Science,Bachelor,3.0,28900,850,800,163574,4811,4528,350354
+UK,Cardiff,Cardiff University,Software Development,Master,1.0,31200,800,800,176592,4528,4528,235456
+UK,Belfast,Queen's University Belfast,Computing Systems,Bachelor,3.0,27500,750,800,155650,4245,4528,322054
+UK,Newcastle,Newcastle University,Data Analytics,Master,1.0,30800,800,800,174328,4528,4528,233192
+Canada,Hamilton,McMaster University,Software Engineering,Bachelor,4.0,32500,1200,900,183950,6792,5094,530342
+Canada,London ON,Western University,Computer Science,Master,2.0,29800,1100,900,168668,6226,5094,328280
+Canada,Halifax,Dalhousie University,Data Science,Master,2.0,28500,1200,900,161310,6792,5094,334506
+Canada,Victoria,University of Victoria,Computer Engineering,Bachelor,4.0,27900,1300,900,157914,7358,5094,531474
+Canada,Quebec City,Laval University,Artificial Intelligence,Master,2.0,21500,900,900,121690,5094,5094,254134
+Canada,Winnipeg,University of Manitoba,Computer Science,Bachelor,4.0,26800,950,900,151688,5377,5094,430160
+Canada,Regina,University of Regina,Software Systems,Bachelor,4.0,25500,900,900,144330,5094,5094,409218
+Canada,St. John's,Memorial University,Computer Science,Master,2.0,19800,950,900,112068,5377,5094,251304
+Canada,Saskatoon,University of Saskatchewan,Data Analytics,Master,2.0,24500,1000,900,138670,5660,5094,284698
+Canada,Sherbrooke,Université de Sherbrooke,Computer Engineering,PhD,4.0,20500,850,900,116030,4811,5094,367334
+USA,Pittsburgh,Carnegie Mellon,Computer Science,Master,2.0,51200,1800,1500,289792,10188,8490,551284
+USA,Urbana-Champaign,UIUC,Computer Science,PhD,5.0,45800,1400,1500,259228,7924,8490,777118
+Canada,Calgary,University of Calgary,Software Engineering,Bachelor,4.0,26500,1300,900,149990,7358,5094,523550
+Brazil,Sao Paulo,University of Sao Paulo,Computer Science,Master,2.0,0,600,400,0,3396,2264,86032
+Turkey,Istanbul,Bogazici University,Computer Engineering,Bachelor,4.0,1800,450,300,10188,2547,1698,139236
+Russia,Moscow,Moscow State University,Applied Mathematics,Master,2.0,3900,700,350,22074,3962,1981,121124
+Mexico,Mexico City,UNAM,Computer Engineering,Bachelor,4.0,800,500,400,4528,2830,2264,149424
+Greece,Athens,National Technical University,Software Engineering,Master,2.0,2500,550,400,14150,3113,2264,93390
+Thailand,Bangkok,Chulalongkorn University,Computer Science,Bachelor,4.0,3800,450,300,21508,2547,1698,150556
+UAE,Dubai,American University in Dubai,Computer Science,Bachelor,4.0,29500,1200,800,166970,6792,4528,511098
+USA,New York,Columbia University,Data Science,Master,2.0,52800,2500,1500,298848,14150,8490,655428
+USA,Ithaca,Cornell University,Computer Science,PhD,5.0,49800,1600,1500,281868,9056,8490,867678
+China,Shenzhen,SUSTech,Artificial Intelligence,Master,2.0,8200,800,400,46412,4528,2264,159612
+South Africa,Cape Town,University of Cape Town,Computer Science,Bachelor,3.0,5900,600,400,33394,3396,2264,162442
+Egypt,Cairo,American University in Cairo,Computer Engineering,Bachelor,4.0,19800,450,350,112068,2547,1981,242248
+Argentina,Buenos Aires,University of Buenos Aires,Software Engineering,Bachelor,5.0,0,400,300,0,2264,1698,144330
+Indonesia,Jakarta,University of Indonesia,Information Systems,Bachelor,4.0,4200,500,300,23772,2830,1698,166404
+Saudi Arabia,Riyadh,King Saud University,Computer Science,Master,2.0,7800,800,600,44148,4528,3396,159612
+Nigeria,Lagos,University of Lagos,Computer Engineering,Bachelor,4.0,2500,400,300,14150,2264,1698,129614
+Vietnam,Ho Chi Minh City,HCMUT,Software Engineering,Bachelor,4.0,3200,450,250,18112,2547,1415,146028
+Netherlands,Eindhoven,TU Eindhoven,Computer Science,Master,2.0,15600,950,720,88296,5377,4075,225494
+Netherlands,Enschede,University of Twente,Artificial Intelligence,Bachelor,3.0,11200,750,720,63392,4245,4075,228437
+Netherlands,Groningen,University of Groningen,Computing Science,Master,2.0,14800,800,720,83768,4528,4075,200590
+Netherlands,Maastricht,Maastricht University,Data Science,Bachelor,3.0,11500,850,720,65090,4811,4075,250511
+Netherlands,Nijmegen,Radboud University,Software Science,Master,2.0,14500,800,720,82070,4528,4075,198892
+Netherlands,Tilburg,Tilburg University,Information Systems,Bachelor,3.0,11300,750,720,63958,4245,4075,229003
+Netherlands,Utrecht,Utrecht University,Game Technology,Master,2.0,15200,1000,720,86032,5660,4075,230022
+Netherlands,Leiden,Leiden University,Computer Engineering,Bachelor,3.0,11400,950,720,64524,5377,4075,270321
+Netherlands,Wageningen,Wageningen University,Bioinformatics,Master,2.0,14900,750,720,84334,4245,4075,194364
+Netherlands,Amsterdam,VU Amsterdam,Business Analytics,Master,2.0,15400,1100,720,87164,6226,4075,244738
+Singapore,Singapore,Nanyang Technological University,Computer Science,Bachelor,4.0,32500,1500,800,183950,8490,4528,609582
+Singapore,Singapore,Singapore Management University,Information Systems,Bachelor,4.0,31800,1500,800,179988,8490,4528,605620
+Singapore,Singapore,SUTD,Computer Science & Design,Bachelor,4.0,31200,1500,800,176592,8490,4528,602224
+Singapore,Singapore,SIT,Software Engineering,Bachelor,4.0,29800,1500,800,168668,8490,4528,594300
+Singapore,Singapore,NUS,Artificial Intelligence,Master,2.0,35600,1500,800,201496,8490,4528,414312
+Singapore,Singapore,NTU,Data Science & AI,Master,2.0,34900,1500,800,197534,8490,4528,410350
+Singapore,Singapore,SUTD,Technology & Innovation,Master,2.0,33800,1500,800,191308,8490,4528,404124
+Singapore,Singapore,SMU,Computing & Innovation,Master,2.0,34200,1500,800,193572,8490,4528,406388
+Singapore,Singapore,NUS,Computer Engineering,PhD,4.0,38500,1500,800,217910,8490,4528,643542
+Singapore,Singapore,NTU,Digital Systems & AI,PhD,4.0,37900,1500,800,214514,8490,4528,640146
+France,Paris,École Polytechnique,Computer Science,Master,2.0,15600,1500,650,88296,8490,3679,299414
+France,Toulouse,INSA Toulouse,Software Engineering,Bachelor,3.0,4200,750,650,23772,4245,3679,187629
+France,Lyon,École Normale Supérieure Lyon,Data Science,Master,2.0,4800,850,650,27168,4811,3679,149990
+France,Grenoble,Grenoble INP,Artificial Intelligence,Master,2.0,4500,800,650,25470,4528,3679,141500
+France,Nice,Université Nice Sophia Antipolis,Computer Engineering,Bachelor,3.0,3900,900,650,22074,5094,3679,216495
+France,Bordeaux,University of Bordeaux,Information Systems,Master,2.0,4200,850,650,23772,4811,3679,146594
+France,Lille,Université de Lille,Software Development,Bachelor,3.0,3800,750,650,21508,4245,3679,185365
+France,Rennes,INSA Rennes,Cybersecurity,Master,2.0,4500,700,650,25470,3962,3679,127916
+France,Strasbourg,University of Strasbourg,Digital Systems,Bachelor,3.0,3900,800,650,22074,4528,3679,196119
+France,Montpellier,University of Montpellier,Data Engineering,Master,2.0,4100,750,650,23206,4245,3679,132444
+Switzerland,Lausanne,EPFL,Computer Science,Master,2.0,1460,1900,1200,8264,10754,6792,279944
+Switzerland,Geneva,University of Geneva,Data Science,Bachelor,3.0,1380,2000,1200,7811,11320,6792,435707
+Switzerland,Bern,University of Bern,Software Engineering,Master,2.0,1420,1700,1200,8037,9622,6792,252549
+Switzerland,St. Gallen,University of St. Gallen,Business Informatics,Bachelor,3.0,1440,1600,1200,8150,9056,6792,354542
+Switzerland,Lugano,USI,Artificial Intelligence,Master,2.0,1460,1500,1200,8264,8490,6792,225608
+Switzerland,Fribourg,University of Fribourg,Computer Engineering,Bachelor,3.0,1380,1400,1200,7811,7924,6792,313451
+Switzerland,Neuchatel,University of Neuchatel,Information Systems,Master,2.0,1420,1500,1200,8037,8490,6792,225381
+Switzerland,Basel,University of Basel,Computational Science,Master,2.0,1440,1800,1200,8150,10188,6792,266246
+Switzerland,Lucerne,University of Lucerne,Digital Innovation,Bachelor,3.0,1380,1600,1200,7811,9056,6792,354203
+Switzerland,Winterthur,ZHAW,Data Engineering,Master,2.0,1460,1700,1200,8264,9622,6792,252776
+Denmark,Copenhagen,University of Copenhagen,Computer Science,Master,2.0,8800,1500,600,49808,8490,3396,260360
+Denmark,Aarhus,Aarhus University,Data Science,Master,2.0,8600,1200,600,48676,6792,3396,218476
+Denmark,Aalborg,Aalborg University,Software Engineering,Master,2.0,8400,1000,600,47544,5660,3396,190176
+China,Beijing,Tsinghua University,Computer Science,Master,3.0,8900,800,400,50374,4528,2264,220174
+China,Beijing,Peking University,Data Science,Master,3.0,8500,750,400,48110,4245,2264,207722
+China,Shanghai,Fudan University,Software Engineering,Master,2.5,7800,700,400,44148,3962,2264,168668
+China,Shanghai,Shanghai Jiao Tong University,Artificial Intelligence,Master,2.5,8200,720,400,46412,4075,2264,174322
+China,Hangzhou,Zhejiang University,Computer Engineering,Master,3.0,7500,550,400,42450,3113,2264,161310
+China,Nanjing,Nanjing University,Information Technology,Master,3.0,7200,500,400,40752,2830,2264,149424
+China,Guangzhou,Sun Yat-sen University,Computer Science,Master,3.0,6900,480,400,39054,2717,2264,143658
+China,Wuhan,Wuhan University,Software Engineering,Master,3.0,6500,450,400,36790,2547,2264,135274
+China,Xi'an,Xi'an Jiaotong University,Data Science,Master,3.0,6300,420,400,35658,2377,2264,128022
+China,Chengdu,Sichuan University,Computer Engineering,Master,3.0,6100,400,400,34526,2264,2264,122822
+South Korea,Seoul,Seoul National University,Computer Science,Master,2.0,7200,950,800,40752,5377,4528,178856
+South Korea,Seoul,Korea University,Artificial Intelligence,Master,2.0,7000,920,800,39620,5207,4528,173644
+South Korea,Seoul,Yonsei University,Data Science,Master,2.0,6900,900,800,39054,5094,4528,170366
+South Korea,Seoul,Hanyang University,Software Engineering,Master,2.0,6500,850,800,36790,4811,4528,161310
+South Korea,Seoul,Sungkyunkwan University,Computer Engineering,Master,2.0,6400,840,800,36224,4754,4528,159376
+South Korea,Daejeon,KAIST,Robotics Engineering,Master,2.0,6800,700,800,38488,3962,4528,142632
+South Korea,Daejeon,Chungnam National University,Information Systems,Master,2.0,5900,650,800,33394,3679,4528,130746
+South Korea,Busan,Pusan National University,Computer Science,Master,2.0,5800,600,800,32828,3396,4528,123388
+South Korea,Busan,Dong-A University,Software Engineering,Master,2.0,5600,580,800,31696,3283,4528,119544
+South Korea,Daegu,Kyungpook National University,Data Analytics,Master,2.0,5500,550,800,31130,3113,4528,114898
+South Korea,Daegu,Yeungnam University,Computer Engineering,Master,2.0,5400,530,800,30564,3000,4528,111620
+South Korea,Gwangju,Chonnam National University,Information Technology,Master,2.0,5300,520,800,29998,2943,4528,109686
+South Korea,Gwangju,Chosun University,Computer Science,Master,2.0,5200,500,800,29432,2830,4528,106408
+South Korea,Ulsan,Ulsan National Institute of Science and Technology,AI Engineering,Master,2.0,6100,580,800,34526,3283,4528,122374
+South Korea,Ulsan,University of Ulsan,Software Systems,Master,2.0,5100,550,800,28866,3113,4528,112634
+South Korea,Pohang,POSTECH,Computer Engineering,Master,2.0,6300,570,800,35658,3226,4528,122138
+South Korea,Incheon,Incheon National University,Data Science,Master,2.0,5000,600,800,28300,3396,4528,118860
+South Korea,Suwon,Sungkyunkwan University (Suwon),Computer Systems,Master,2.0,5900,650,800,33394,3679,4528,130746
+South Korea,Daejeon,Hanbat National University,Information Security,Master,2.0,4900,540,800,27734,3056,4528,110134
+South Korea,Cheongju,Chungbuk National University,Computer Networks,Master,2.0,4800,520,800,27168,2943,4528,106856
+USA,Stanford,Stanford University,Computer Science,Bachelor,4.0,57000,2400,1500,322620,13584,8490,1008612
+USA,Cambridge,MIT,Computer Science,Bachelor,4.0,55800,2300,1500,315828,13018,8490,974652
+USA,New Haven,Yale University,Computer Science,Bachelor,4.0,54500,2100,1500,308470,11886,8490,912958
+USA,Princeton,Princeton University,Computer Science,Bachelor,4.0,54000,2000,1500,305640,11320,8490,882960
+USA,Philadelphia,University of Pennsylvania,Computer Science,Bachelor,4.0,53500,1900,1500,302810,10754,8490,852962
+USA,Los Angeles,UCLA,Computer Science,Bachelor,4.0,43000,2200,1500,243380,12452,8490,875036
+USA,Berkeley,UC Berkeley,Computer Science,Bachelor,4.0,43500,2300,1500,246210,13018,8490,905034
+USA,Ann Arbor,University of Michigan,Computer Science,Bachelor,4.0,52000,1700,1500,294320,9622,8490,790136
+USA,Austin,University of Texas Austin,Computer Science,Bachelor,4.0,40500,1800,1500,229230,10188,8490,752214
+USA,Seattle,University of Washington,Computer Science,Bachelor,4.0,39800,2000,1500,225268,11320,8490,802588
+USA,Madison,University of Wisconsin-Madison,Computer Science,Bachelor,4.0,37500,1600,1500,212250,9056,8490,680898
+USA,Urbana,University of Illinois Urbana-Champaign,Computer Science,Bachelor,4.0,36800,1500,1500,208288,8490,8490,649768
+USA,Atlanta,Georgia Tech,Computer Science,Bachelor,4.0,33500,1700,1500,189610,9622,8490,685426
+USA,Columbus,Ohio State University,Computer Science,Bachelor,4.0,32800,1400,1500,185648,7924,8490,599960
+USA,West Lafayette,Purdue University,Computer Science,Bachelor,4.0,31500,1300,1500,178290,7358,8490,565434
+USA,Gainesville,University of Florida,Computer Science,Bachelor,4.0,28500,1400,1500,161310,7924,8490,575622
+USA,Tempe,Arizona State University,Computer Science,Bachelor,4.0,28000,1500,1500,158480,8490,8490,599960
+USA,Raleigh,NC State University,Computer Science,Bachelor,4.0,27500,1400,1500,155650,7924,8490,569962
+USA,College Station,Texas A&M University,Computer Science,Bachelor,4.0,27000,1300,1500,152820,7358,8490,539964
+USA,Corvallis,Oregon State University,Computer Science,Bachelor,4.0,26500,1300,1500,149990,7358,8490,537134
+UK,Cambridge,University of Cambridge,Computer Science,Bachelor,3.0,38500,1800,800,217910,10188,4528,598262
+UK,Oxford,University of Oxford,Computer Science,Bachelor,3.0,37900,1850,800,214514,10471,4528,605054
+UK,London,Imperial College London,Computer Science,Bachelor,3.0,37500,2200,800,212250,12452,4528,674106
+UK,London,University College London,Computer Science,Bachelor,3.0,36800,2100,800,208288,11886,4528,649768
+UK,London,King's College London,Computer Science,Bachelor,3.0,35500,2000,800,200930,11320,4528,622034
+UK,Edinburgh,University of Edinburgh,Computer Science,Bachelor,4.0,32500,1600,800,183950,9056,4528,636750
+UK,Manchester,University of Manchester,Computer Science,Bachelor,3.0,31800,1400,800,179988,7924,4528,478836
+UK,Bristol,University of Bristol,Computer Science,Bachelor,3.0,31500,1500,800,178290,8490,4528,497514
+UK,Warwick,University of Warwick,Computer Science,Bachelor,3.0,31200,1300,800,176592,7358,4528,455064
+UK,Glasgow,University of Glasgow,Computer Science,Bachelor,4.0,30800,1400,800,174328,7924,4528,572792
+UK,Birmingham,University of Birmingham,Computer Science,Bachelor,3.0,30500,1300,800,172630,7358,4528,451102
+UK,Leeds,University of Leeds,Computer Science,Bachelor,3.0,30200,1250,800,170932,7075,4528,439216
+UK,Sheffield,University of Sheffield,Computer Science,Bachelor,3.0,29800,1200,800,168668,6792,4528,426764
+UK,Nottingham,University of Nottingham,Computer Science,Bachelor,3.0,29500,1150,800,166970,6509,4528,414878
+UK,Southampton,University of Southampton,Computer Science,Bachelor,3.0,29200,1300,800,165272,7358,4528,443744
+UK,Durham,Durham University,Computer Science,Bachelor,3.0,28900,1250,800,163574,7075,4528,431858
+UK,Liverpool,University of Liverpool,Computer Science,Bachelor,3.0,28600,1100,800,161876,6226,4528,399596
+UK,Cardiff,Cardiff University,Computer Science,Bachelor,3.0,28300,1050,800,160178,5943,4528,387710
+UK,Newcastle,Newcastle University,Computer Science,Bachelor,3.0,28000,1100,800,158480,6226,4528,396200
+UK,Aberdeen,University of Aberdeen,Computer Science,Bachelor,4.0,27700,1000,800,156782,5660,4528,446574
+UK,Leicester,University of Leicester,Computer Science,Bachelor,3.0,27400,950,800,155084,5377,4528,362240
+UK,Reading,University of Reading,Computer Science,Bachelor,3.0,27100,1150,800,153386,6509,4528,401294
+UK,Sussex,University of Sussex,Computer Science,Bachelor,3.0,26800,1200,800,151688,6792,4528,409784
+UK,Essex,University of Essex,Computer Science,Bachelor,3.0,26500,1000,800,149990,5660,4528,367334
+UK,Bath,University of Bath,Computer Science,Bachelor,3.0,26200,1250,800,148292,7075,4528,416576
+UK,Surrey,University of Surrey,Computer Science,Bachelor,3.0,25900,1150,800,146594,6509,4528,394502
+UK,Exeter,University of Exeter,Computer Science,Bachelor,3.0,25600,1200,800,144896,6792,4528,402992
+UK,Kent,University of Kent,Computer Science,Bachelor,3.0,25300,1100,800,143198,6226,4528,380918
+UK,Dundee,University of Dundee,Computer Science,Bachelor,4.0,25000,950,800,141500,5377,4528,417708
+UK,Strathclyde,University of Strathclyde,Computer Science,Bachelor,4.0,24700,1000,800,139802,5660,4528,429594
+UK,Heriot-Watt,Heriot-Watt University,Computer Science,Bachelor,4.0,24400,1050,800,138104,5943,4528,441480
+UK,Loughborough,Loughborough University,Computer Science,Bachelor,3.0,24100,900,800,136406,5094,4528,333374
+UK,Brunel,Brunel University London,Computer Science,Bachelor,3.0,23800,1800,800,134708,10188,4528,515060
+UK,Queen Mary,Queen Mary University of London,Computer Science,Bachelor,3.0,23500,1900,800,133010,10754,4528,533738
+UK,Royal Holloway,Royal Holloway University,Computer Science,Bachelor,3.0,23200,1400,800,131312,7924,4528,430160
+UK,Lancaster,Lancaster University,Computer Science,Bachelor,3.0,22900,1000,800,129614,5660,4528,346958
+UK,Swansea,Swansea University,Computer Science,Bachelor,3.0,22600,950,800,127916,5377,4528,335072
+UK,Aston,Aston University,Computer Science,Bachelor,3.0,22300,1200,800,126218,6792,4528,384314
+UK,Hull,University of Hull,Computer Science,Bachelor,3.0,22000,850,800,124520,4811,4528,311300
+UK,Keele,Keele University,Computer Science,Bachelor,3.0,21700,800,800,122822,4528,4528,299414
+UK,Plymouth,University of Plymouth,Computer Science,Bachelor,3.0,21400,950,800,121124,5377,4528,328280
+UK,Portsmouth,University of Portsmouth,Computer Science,Bachelor,3.0,21100,1000,800,119426,5660,4528,336770
+UK,Ulster,Ulster University,Computer Science,Bachelor,3.0,20800,800,800,117728,4528,4528,294320
+UK,Northumbria,Northumbria University,Computer Science,Bachelor,3.0,20500,900,800,116030,5094,4528,312998
+UK,Coventry,Coventry University,Computer Science,Bachelor,3.0,20200,950,800,114332,5377,4528,321488
+UK,Oxford Brookes,Oxford Brookes University,Computer Science,Bachelor,3.0,19900,1500,800,112634,8490,4528,431858
+UK,De Montfort,De Montfort University,Computer Science,Bachelor,3.0,19600,900,800,110936,5094,4528,307904
+UK,Westminster,University of Westminster,Computer Science,Bachelor,3.0,19300,1800,800,109238,10188,4528,489590
+UK,Greenwich,University of Greenwich,Computer Science,Bachelor,3.0,19000,1700,800,107540,9622,4528,467516
+UK,Kingston,Kingston University,Computer Science,Bachelor,3.0,18700,1600,800,105842,9056,4528,445442
+Canada,Toronto,University of Toronto,Computer Science,Bachelor,4.0,45200,1800,600,255832,10188,3396,758440
+Canada,Toronto,University of Toronto,Computer Science,Master,2.0,28500,1800,600,161310,10188,3396,412614
+Canada,Vancouver,University of British Columbia,Computer Science,Bachelor,4.0,43800,1900,600,247908,10754,3396,777684
+Canada,Vancouver,University of British Columbia,Computer Science,Master,2.0,27900,1900,600,157914,10754,3396,422802
+Canada,Montreal,McGill University,Computer Science,Bachelor,4.0,41500,1500,600,234890,8490,3396,655994
+Canada,Montreal,McGill University,Computer Science,Master,2.0,26800,1500,600,151688,8490,3396,362240
+Canada,Waterloo,University of Waterloo,Computer Science,Bachelor,4.0,40900,1300,600,231494,7358,3396,598262
+Canada,Waterloo,University of Waterloo,Computer Science,Master,2.0,26200,1300,600,148292,7358,3396,331676
+Canada,Montreal,University of Montreal,Computer Science,Bachelor,4.0,39500,1400,600,223570,7924,3396,617506
+Canada,Montreal,University of Montreal,Computer Science,Master,2.0,25800,1400,600,146028,7924,3396,342996
+Canada,Edmonton,University of Alberta,Computer Science,Bachelor,4.0,38200,1200,600,216212,6792,3396,555812
+Canada,Edmonton,University of Alberta,Computer Science,Master,2.0,24900,1200,600,140934,6792,3396,310734
+Canada,Ottawa,University of Ottawa,Computer Science,Bachelor,4.0,37800,1400,600,213948,7924,3396,607884
+Canada,Ottawa,University of Ottawa,Computer Science,Master,2.0,24500,1400,600,138670,7924,3396,335638
+Canada,Calgary,University of Calgary,Computer Science,Bachelor,4.0,37200,1300,600,210552,7358,3396,577320
+Canada,Calgary,University of Calgary,Computer Science,Master,2.0,24100,1300,600,136406,7358,3396,319790
+Canada,Hamilton,McMaster University,Computer Science,Bachelor,4.0,36500,1250,600,206590,7075,3396,559774
+Canada,Hamilton,McMaster University,Computer Science,Master,2.0,23800,1250,600,134708,7075,3396,311300
+Canada,London,Western University,Computer Science,Bachelor,4.0,35900,1200,600,203194,6792,3396,542794
+Canada,London,Western University,Computer Science,Master,2.0,23500,1200,600,133010,6792,3396,302810
+Canada,Kingston,Queen's University,Computer Science,Bachelor,4.0,35400,1300,600,200364,7358,3396,567132
+Canada,Kingston,Queen's University,Computer Science,Master,2.0,23200,1300,600,131312,7358,3396,314696
+Canada,Victoria,University of Victoria,Computer Science,Bachelor,4.0,34800,1400,600,196968,7924,3396,590904
+Canada,Victoria,University of Victoria,Computer Science,Master,2.0,22900,1400,600,129614,7924,3396,326582
+Canada,Halifax,Dalhousie University,Computer Science,Bachelor,4.0,34200,1200,600,193572,6792,3396,533172
+Canada,Halifax,Dalhousie University,Computer Science,Master,2.0,22600,1200,600,127916,6792,3396,297716
+Canada,Winnipeg,University of Manitoba,Computer Science,Bachelor,4.0,33600,1100,600,190176,6226,3396,502608
+Canada,Winnipeg,University of Manitoba,Computer Science,Master,2.0,22300,1100,600,126218,6226,3396,282434
+Canada,Quebec City,Laval University,Computer Science,Bachelor,4.0,33000,1000,600,186780,5660,3396,472044
+Canada,Quebec City,Laval University,Computer Science,Master,2.0,22000,1000,600,124520,5660,3396,267152
+Canada,Saskatoon,University of Saskatchewan,Computer Science,Bachelor,4.0,32400,950,600,183384,5377,3396,455064
+Canada,Saskatoon,University of Saskatchewan,Computer Science,Master,2.0,21700,950,600,122822,5377,3396,258662
+Canada,St. John's,Memorial University,Computer Science,Bachelor,4.0,31800,900,600,179988,5094,3396,438084
+Canada,St. John's,Memorial University,Computer Science,Master,2.0,21400,900,600,121124,5094,3396,250172
+Canada,Regina,University of Regina,Computer Science,Bachelor,4.0,31200,900,600,176592,5094,3396,434688
+Canada,Regina,University of Regina,Computer Science,Master,2.0,21100,900,600,119426,5094,3396,248474
+Canada,Sherbrooke,University of Sherbrooke,Computer Science,Bachelor,4.0,30600,850,600,173196,4811,3396,417708
+Canada,Sherbrooke,University of Sherbrooke,Computer Science,Master,2.0,20800,850,600,117728,4811,3396,239984
+Canada,Windsor,University of Windsor,Computer Science,Bachelor,4.0,30000,950,600,169800,5377,3396,441480
+Canada,Windsor,University of Windsor,Computer Science,Master,2.0,20500,950,600,116030,5377,3396,251870
+Canada,Moncton,University of New Brunswick,Computer Science,Bachelor,4.0,29400,900,600,166404,5094,3396,424500
+Canada,Moncton,University of New Brunswick,Computer Science,Master,2.0,20200,900,600,114332,5094,3396,243380
+Canada,Trois-Rivieres,UQTR,Computer Science,Bachelor,4.0,28800,850,600,163008,4811,3396,407520
+Canada,Trois-Rivieres,UQTR,Computer Science,Master,2.0,19900,850,600,112634,4811,3396,234890
+Canada,Thunder Bay,Lakehead University,Computer Science,Bachelor,4.0,28200,800,600,159612,4528,3396,390540
+Canada,Thunder Bay,Lakehead University,Computer Science,Master,2.0,19600,800,600,110936,4528,3396,226400
+Canada,Sudbury,Laurentian University,Computer Science,Bachelor,4.0,27600,800,600,156216,4528,3396,387144
+Canada,Sudbury,Laurentian University,Computer Science,Master,2.0,19300,800,600,109238,4528,3396,224702
+Canada,Prince George,UNBC,Computer Science,Bachelor,4.0,27000,750,600,152820,4245,3396,370164
+Canada,Prince George,UNBC,Computer Science,Master,2.0,19000,750,600,107540,4245,3396,216212
+Australia,Melbourne,University of Melbourne,Computer Science,Bachelor,3.0,42500,1800,650,240550,10188,3679,618355
+Australia,Melbourne,University of Melbourne,Computer Science,Master,2.0,45800,1800,650,259228,10188,3679,511098
+Australia,Melbourne,University of Melbourne,Computer Science,PhD,4.0,35000,1800,650,198100,10188,3679,701840
+Australia,Sydney,University of Sydney,Computer Science,Bachelor,3.0,41800,2000,650,236588,11320,3679,655145
+Australia,Sydney,University of Sydney,Computer Science,Master,2.0,44900,2000,650,254134,11320,3679,533172
+Australia,Sydney,University of Sydney,Computer Science,PhD,4.0,34500,2000,650,195270,11320,3679,753346
+Australia,Canberra,Australian National University,Computer Science,Bachelor,3.0,41200,1600,650,233192,9056,3679,570245
+Australia,Canberra,Australian National University,Computer Science,Master,2.0,44200,1600,650,250172,9056,3679,474874
+Australia,Canberra,Australian National University,Computer Science,PhD,4.0,34000,1600,650,192440,9056,3679,641844
+Australia,Brisbane,University of Queensland,Computer Science,Bachelor,3.0,40500,1500,650,229230,8490,3679,545907
+Australia,Brisbane,University of Queensland,Computer Science,Master,2.0,43500,1500,650,246210,8490,3679,457328
+Australia,Brisbane,University of Queensland,Computer Science,PhD,4.0,33500,1500,650,189610,8490,3679,611846
+Australia,Sydney,University of New South Wales,Computer Science,Bachelor,3.0,40200,1900,650,227532,10754,3679,625713
+Australia,Sydney,University of New South Wales,Computer Science,Master,2.0,43200,1900,650,244512,10754,3679,509966
+Australia,Sydney,University of New South Wales,Computer Science,PhD,4.0,33200,1900,650,187912,10754,3679,718820
+Australia,Melbourne,Monash University,Computer Science,Bachelor,3.0,39800,1700,650,225268,9622,3679,582697
+Australia,Melbourne,Monash University,Computer Science,Master,2.0,42800,1700,650,242248,9622,3679,480534
+Australia,Melbourne,Monash University,Computer Science,PhD,4.0,32800,1700,650,185648,9622,3679,662220
+Australia,Adelaide,University of Adelaide,Computer Science,Bachelor,3.0,39200,1400,650,221872,7924,3679,518173
+Australia,Adelaide,University of Adelaide,Computer Science,Master,2.0,42200,1400,650,238852,7924,3679,436386
+Australia,Adelaide,University of Adelaide,Computer Science,PhD,4.0,32200,1400,650,182252,7924,3679,577320
+Australia,Perth,University of Western Australia,Computer Science,Bachelor,3.0,38800,1500,650,219608,8490,3679,536285
+Australia,Perth,University of Western Australia,Computer Science,Master,2.0,41800,1500,650,236588,8490,3679,447706
+Australia,Perth,University of Western Australia,Computer Science,PhD,4.0,31800,1500,650,179988,8490,3679,602224
+Australia,Brisbane,Queensland University of Technology,Computer Science,Bachelor,3.0,38200,1400,650,216212,7924,3679,512513
+Australia,Brisbane,Queensland University of Technology,Computer Science,Master,2.0,41200,1400,650,233192,7924,3679,430726
+Australia,Brisbane,Queensland University of Technology,Computer Science,PhD,4.0,31200,1400,650,176592,7924,3679,571660
+Australia,Sydney,University of Technology Sydney,Computer Science,Bachelor,3.0,37800,1800,650,213948,10188,3679,591753
+Australia,Sydney,University of Technology Sydney,Computer Science,Master,2.0,40800,1800,650,230928,10188,3679,482798
+Australia,Sydney,University of Technology Sydney,Computer Science,PhD,4.0,30800,1800,650,174328,10188,3679,678068
+Australia,Melbourne,RMIT University,Computer Science,Bachelor,3.0,37200,1600,650,210552,9056,3679,547605
+Australia,Melbourne,RMIT University,Computer Science,Master,2.0,40200,1600,650,227532,9056,3679,452234
+Australia,Melbourne,RMIT University,Computer Science,PhD,4.0,30200,1600,650,170932,9056,3679,620336
+Australia,Wollongong,University of Wollongong,Computer Science,Bachelor,3.0,36800,1300,650,208288,7358,3679,484213
+Australia,Wollongong,University of Wollongong,Computer Science,Master,2.0,39800,1300,650,225268,7358,3679,409218
+Australia,Wollongong,University of Wollongong,Computer Science,PhD,4.0,29800,1300,650,168668,7358,3679,536568
+Australia,Newcastle,University of Newcastle,Computer Science,Bachelor,3.0,36200,1300,650,204892,7358,3679,480817
+Australia,Newcastle,University of Newcastle,Computer Science,Master,2.0,39200,1300,650,221872,7358,3679,405822
+Australia,Newcastle,University of Newcastle,Computer Science,PhD,4.0,29200,1300,650,165272,7358,3679,533172
+Australia,Hobart,University of Tasmania,Computer Science,Bachelor,3.0,35800,1200,650,202628,6792,3679,458177
+Australia,Hobart,University of Tasmania,Computer Science,Master,2.0,38800,1200,650,219608,6792,3679,389974
+Australia,Hobart,University of Tasmania,Computer Science,PhD,4.0,28800,1200,650,163008,6792,3679,503740
+Australia,Gold Coast,Griffith University,Computer Science,Bachelor,3.0,35200,1400,650,199232,7924,3679,495533
+Australia,Gold Coast,Griffith University,Computer Science,Master,2.0,38200,1400,650,216212,7924,3679,413746
+Australia,Gold Coast,Griffith University,Computer Science,PhD,4.0,28200,1400,650,159612,7924,3679,554680
+Australia,Canberra,University of Canberra,Computer Science,Bachelor,3.0,34800,1500,650,196968,8490,3679,513645
+Australia,Canberra,University of Canberra,Computer Science,Master,2.0,37800,1500,650,213948,8490,3679,425066
+Australia,Canberra,University of Canberra,Computer Science,PhD,4.0,27800,1500,650,157348,8490,3679,579584
+Australia,Townsville,James Cook University,Computer Science,Bachelor,3.0,34200,1200,650,193572,6792,3679,449121
+Australia,Townsville,James Cook University,Computer Science,Master,2.0,37200,1200,650,210552,6792,3679,380918
+Australia,Townsville,James Cook University,Computer Science,PhD,4.0,27200,1200,650,153952,6792,3679,494684
+Australia,Armidale,University of New England,Computer Science,Bachelor,3.0,33800,1100,650,191308,6226,3679,426481
+Australia,Armidale,University of New England,Computer Science,Master,2.0,36800,1100,650,208288,6226,3679,365070
+Australia,Armidale,University of New England,Computer Science,PhD,4.0,26800,1100,650,151688,6226,3679,465252
+Australia,Toowoomba,University of Southern Queensland,Computer Science,Bachelor,3.0,33200,1100,650,187912,6226,3679,423085
+Australia,Toowoomba,University of Southern Queensland,Computer Science,Master,2.0,36200,1100,650,204892,6226,3679,361674
+Australia,Toowoomba,University of Southern Queensland,Computer Science,PhD,4.0,26200,1100,650,148292,6226,3679,461856
+Australia,Ballarat,Federation University,Computer Science,Bachelor,3.0,32800,1000,650,185648,5660,3679,400445
+Australia,Ballarat,Federation University,Computer Science,Master,2.0,35800,1000,650,202628,5660,3679,345826
+Australia,Ballarat,Federation University,Computer Science,PhD,4.0,25800,1000,650,146028,5660,3679,432424
+Australia,Lismore,Southern Cross University,Computer Science,Bachelor,3.0,32200,1000,650,182252,5660,3679,397049
+Australia,Lismore,Southern Cross University,Computer Science,Master,2.0,35200,1000,650,199232,5660,3679,342430
+Australia,Lismore,Southern Cross University,Computer Science,PhD,4.0,25200,1000,650,142632,5660,3679,429028
+USA,Boston,MIT,Computer Science,Master,2.0,58000,2100,1500,328280,11886,8490,630524
+UK,London,Imperial College London,Data Science,Master,1.0,42000,1800,800,237720,10188,4528,364504
+Germany,Munich,TU Munich,Mechanical Engineering,Master,2.0,0,1200,900,0,6792,5094,173196
+Canada,Toronto,University of Toronto,Business Analytics,Master,2.0,45000,1700,750,254700,9622,4245,494118
+Australia,Melbourne,University of Melbourne,Artificial Intelligence,PhD,4.0,29000,1500,650,164140,8490,3679,586376
+USA,Stanford,Stanford University,Physics,PhD,5.0,52000,2300,1500,294320,13018,8490,1117850
+UK,Edinburgh,University of Edinburgh,Chemistry,Master,2.0,38000,1100,800,215080,6226,4528,373560
+Germany,Berlin,Humboldt University,Computer Science,Bachelor,3.0,0,950,900,0,5377,5094,208854
+Canada,Vancouver,University of British Columbia,Environmental Science,Master,2.0,42000,1600,750,237720,9056,4245,463554
+Australia,Sydney,University of Sydney,Biotechnology,PhD,4.0,31000,1700,650,175460,9622,3679,652032
+USA,Berkeley,UC Berkeley,Mathematics,Master,2.0,54000,2000,1500,305640,11320,8490,594300
+UK,Manchester,University of Manchester,Engineering,Bachelor,3.0,35000,900,800,198100,5094,4528,395068
+Germany,Hamburg,University of Hamburg,Physics,Master,2.0,0,1100,900,0,6226,5094,159612
+Canada,Montreal,McGill University,Computer Science,PhD,4.0,38000,1400,750,215080,7924,4245,612412
+Australia,Brisbane,University of Queensland,Data Science,Master,2.0,32000,1200,650,181120,6792,3679,351486
+USA,New York,Columbia University,Economics,Master,2.0,62000,2500,1500,350920,14150,8490,707500
+UK,Oxford,University of Oxford,Computer Science,PhD,4.0,40000,1400,800,226400,7924,4528,624864
+Germany,Dresden,TU Dresden,Mechanical Engineering,Bachelor,3.0,0,800,900,0,4528,5094,178290
+Canada,Ottawa,University of Ottawa,Artificial Intelligence,Master,2.0,40000,1300,750,226400,7358,4245,411482
+Australia,Perth,University of Western Australia,Physics,Master,2.0,30000,1100,650,169800,6226,3679,326582
+USA,Atlanta,Georgia Tech,Engineering,PhD,5.0,48000,1700,1500,271680,9622,8490,891450
+UK,Bristol,University of Bristol,Data Science,Master,2.0,36000,1200,800,203760,6792,4528,375824
+Germany,Frankfurt,Goethe University,Computer Science,Master,2.0,0,1300,900,0,7358,5094,186780
+Canada,Calgary,University of Calgary,Mathematics,Bachelor,4.0,35000,1200,750,198100,6792,4245,541096
+Australia,Adelaide,University of Adelaide,Chemistry,PhD,4.0,28000,1000,650,158480,5660,3679,444876
+USA,Los Angeles,UCLA,Computer Science,Master,2.0,52000,2200,1500,294320,12452,8490,610148
+UK,Glasgow,University of Glasgow,Physics,Bachelor,3.0,34000,950,800,192440,5377,4528,399596
+Germany,Stuttgart,University of Stuttgart,Engineering,Master,2.0,0,1100,900,0,6226,5094,159612
+Canada,Edmonton,University of Alberta,Data Science,Master,2.0,37000,1100,750,209420,6226,4245,367334
+Australia,Canberra,Australian National University,Computer Science,PhD,4.0,33000,1300,650,186780,7358,3679,554680
+USA,Austin,UT Austin,Mathematics,Master,2.0,45000,1600,1500,254700,9056,8490,489024
+UK,Leeds,University of Leeds,Chemistry,PhD,4.0,35000,900,800,198100,5094,4528,460724
+Germany,Heidelberg,Heidelberg University,Physics,Bachelor,3.0,0,1000,900,0,5660,5094,219042
+Canada,Halifax,Dalhousie University,Engineering,Master,2.0,36000,1000,750,203760,5660,4245,348090
+Australia,Gold Coast,Griffith University,Data Science,Master,2.0,29000,1100,650,164140,6226,3679,320922
+USA,Seattle,University of Washington,Computer Science,PhD,5.0,50000,2000,1500,283000,11320,8490,1004650
+UK,Sheffield,University of Sheffield,Engineering,Master,2.0,33000,850,800,186780,4811,4528,311300
+Germany,Cologne,University of Cologne,Mathematics,Master,2.0,0,1200,900,0,6792,5094,173196
+Canada,Quebec City,Laval University,Physics,Bachelor,3.0,34000,900,750,192440,5094,4245,388559
+Australia,Newcastle,University of Newcastle,Chemistry,Master,2.0,27000,950,650,152820,5377,3679,289226
+USA,Pittsburgh,Carnegie Mellon,Data Science,Master,2.0,56000,1500,1500,316960,8490,8490,537700
+UK,Nottingham,University of Nottingham,Computer Science,PhD,4.0,34000,800,800,192440,4528,4528,427896
+Germany,Bonn,University of Bonn,Engineering,Master,2.0,0,1100,900,0,6226,5094,159612
+Canada,Victoria,University of Victoria,Mathematics,Master,2.0,35000,1100,750,198100,6226,4245,356014
+Australia,Hobart,University of Tasmania,Physics,Bachelor,3.0,26000,900,650,147160,5094,3679,341581
+USA,San Diego,UC San Diego,Chemistry,PhD,5.0,49000,1900,1500,277340,10754,8490,965030
+UK,Durham,Durham University,Engineering,Master,2.0,35000,900,800,198100,5094,4528,329412
+Germany,Aachen,RWTH Aachen,Computer Science,Bachelor,3.0,0,1000,900,0,5660,5094,219042
+Canada,Winnipeg,University of Manitoba,Data Science,Master,2.0,33000,900,750,186780,5094,4245,317526
+Australia,Wollongong,University of Wollongong,Mathematics,PhD,4.0,28000,950,650,158480,5377,3679,431292
+USA,San Francisco,UC Berkeley Extension,Data Science,Master,2.0,52000,2400,1500,294320,13584,8490,637316
+UK,London,King's College London,Computer Science,Master,1.0,39000,1900,800,220740,10754,4528,354316
+Switzerland,Zurich,ETH Zurich,Computer Science,Master,2.0,1500,2000,1200,8490,11320,6792,293754
+France,Paris,Sorbonne University,Data Analytics,Master,2.0,4500,1800,850,25470,10188,4811,279604
+Ireland,Dublin,Trinity College Dublin,Computer Science,PhD,4.0,18900,1700,750,106974,9622,4245,585810
+USA,Chicago,University of Chicago,Data Science,Master,2.0,58000,1900,1500,328280,10754,8490,603356
+UK,Cambridge,Anglia Ruskin University,Data Analytics,Bachelor,3.0,35000,1500,800,198100,8490,4528,517324
+Switzerland,Lausanne,EPFL,Computer Science,PhD,4.0,1500,1900,1200,8490,10754,6792,551850
+France,Lyon,University of Lyon,Data Science,Master,2.0,4200,1200,850,23772,6792,4811,196402
+Ireland,Cork,University College Cork,Computer Science,Master,2.0,16800,1300,750,95088,7358,4245,280170
+USA,Boston,Northeastern University,Data Analytics,Master,2.0,54000,2200,1500,305640,12452,8490,621468
+UK,Edinburgh,Heriot-Watt University,Computer Science,Master,1.0,37000,1200,800,209420,6792,4528,295452
+Switzerland,Geneva,University of Geneva,Data Science,Master,2.0,1500,1800,1200,8490,10188,6792,266586
+France,Toulouse,University of Toulouse,Computer Science,Bachelor,3.0,4000,900,850,22640,5094,4811,220457
+Ireland,Galway,NUI Galway,Data Analytics,Master,2.0,15900,1100,750,89994,6226,4245,247908
+USA,Seattle,University of Washington,Data Science,PhD,4.0,51000,2100,1500,288660,11886,8490,893148
+UK,Birmingham,University of Birmingham,Computer Science,Master,1.0,36000,1100,800,203760,6226,4528,283000
+Switzerland,Basel,University of Basel,Data Science,Master,2.0,1500,1700,1200,8490,9622,6792,253002
+France,Bordeaux,University of Bordeaux,Data Analytics,Master,2.0,4300,1000,850,24338,5660,4811,169800
+Ireland,Limerick,University of Limerick,Computer Science,Bachelor,4.0,15400,1000,750,87164,5660,4245,375824
+USA,Austin,UT Austin,Computer Science,Master,2.0,49000,1800,1500,277340,10188,8490,538832
+UK,Manchester,University of Salford,Data Science,Master,1.0,35000,1000,800,198100,5660,4528,270548
+Switzerland,St. Gallen,University of St. Gallen,Data Analytics,Master,2.0,1500,1600,1200,8490,9056,6792,239418
+France,Nice,University of Nice,Computer Science,Master,2.0,4100,1300,850,23206,7358,4811,209420
+Ireland,Maynooth,Maynooth University,Data Science,PhD,4.0,14900,950,750,84334,5377,4245,359410
+USA,Denver,University of Denver,Data Analytics,Master,2.0,47000,1700,1500,266020,9622,8490,513928
+UK,Leeds,Leeds Beckett University,Computer Science,Bachelor,3.0,34000,900,800,192440,5094,4528,389408
+Switzerland,Bern,University of Bern,Data Science,Master,2.0,1500,1500,1200,8490,8490,6792,225834
+France,Lille,University of Lille,Data Analytics,PhD,4.0,4200,950,850,23772,5377,4811,301112
+Ireland,Waterford,Waterford IT,Computer Science,Master,2.0,14500,900,750,82070,5094,4245,212816
+USA,Portland,Portland State University,Data Science,Master,2.0,45000,1600,1500,254700,9056,8490,489024
+UK,Bristol,UWE Bristol,Computer Science,Master,1.0,33000,1100,800,186780,6226,4528,266020
+Switzerland,Lugano,USI Lugano,Data Analytics,Master,2.0,1500,1400,1200,8490,7924,6792,212250
+France,Strasbourg,University of Strasbourg,Computer Science,Master,2.0,4000,1000,850,22640,5660,4811,168102
+Ireland,Sligo,IT Sligo,Data Science,Bachelor,4.0,14000,850,750,79240,4811,4245,327148
+USA,Minneapolis,University of Minnesota,Computer Science,PhD,4.0,48000,1700,1500,271680,9622,8490,767496
+UK,Cardiff,Cardiff University,Data Analytics,Master,1.0,34000,950,800,192440,5377,4528,261492
+Switzerland,Fribourg,University of Fribourg,Computer Science,Master,2.0,1500,1300,1200,8490,7358,6792,198666
+France,Grenoble,Grenoble INP,Data Science,Master,2.0,4100,1100,850,23206,6226,4811,182252
+Ireland,Athlone,Athlone IT,Data Analytics,Master,2.0,13800,800,750,78108,4528,4245,195270
+Norway,Oslo,University of Oslo,Computer Science,Master,2.0,0,1400,700,0,7924,3962,198100
+Finland,Helsinki,University of Helsinki,Data Science,Master,2.0,0,1200,650,0,6792,3679,170366
+Germany,Berlin,Technical University Berlin,Mechanical Engineering,Master,2.0,0,1100,900,0,6226,5094,159612
+Denmark,Copenhagen,University of Copenhagen,Physics,PhD,4.0,0,1500,800,0,8490,4528,425632
+Norway,Trondheim,NTNU,Robotics,Master,2.0,0,1100,700,0,6226,3962,157348
+Finland,Espoo,Aalto University,Computer Engineering,Bachelor,3.0,0,1000,650,0,5660,3679,214797
+Germany,Munich,LMU Munich,Mathematics,PhD,4.0,0,1300,900,0,7358,5094,373560
+Denmark,Aarhus,Aarhus University,Data Analytics,Master,2.0,0,1200,800,0,6792,4528,172064
+Norway,Bergen,University of Bergen,Artificial Intelligence,Master,2.0,0,1200,700,0,6792,3962,170932
+Finland,Tampere,Tampere University,Software Engineering,Master,2.0,0,900,650,0,5094,3679,129614
+Germany,Dresden,TU Dresden,Computer Science,Bachelor,3.0,0,900,900,0,5094,5094,198666
+Denmark,Odense,University of Southern Denmark,Biotechnology,Master,2.0,0,1100,800,0,6226,4528,158480
+Norway,Tromsø,UiT Arctic University,Marine Technology,PhD,4.0,0,1000,700,0,5660,3962,287528
+Finland,Turku,University of Turku,Bioinformatics,Master,2.0,0,850,650,0,4811,3679,122822
+Germany,Hamburg,TU Hamburg,Electrical Engineering,Master,2.0,0,1200,900,0,6792,5094,173196
+Denmark,Aalborg,Aalborg University,Energy Engineering,Bachelor,3.0,0,1000,800,0,5660,4528,217344
+Norway,Stavanger,University of Stavanger,Petroleum Engineering,Master,2.0,0,1100,700,0,6226,3962,157348
+Finland,Oulu,University of Oulu,Computer Science,PhD,4.0,0,800,650,0,4528,3679,232060
+Germany,Stuttgart,University of Stuttgart,Aerospace Engineering,Master,2.0,0,1100,900,0,6226,5094,159612
+Denmark,Roskilde,Roskilde University,Environmental Science,Master,2.0,0,1000,800,0,5660,4528,144896
+Norway,Ås,Norwegian University of Life Sciences,Biotechnology,Master,2.0,0,900,700,0,5094,3962,130180
+Finland,Vaasa,University of Vaasa,Industrial Management,Master,2.0,0,800,650,0,4528,3679,116030
+Germany,Karlsruhe,KIT,Mechatronics,PhD,4.0,0,1000,900,0,5660,5094,292056
+Denmark,Lyngby,Technical University of Denmark,Quantum Engineering,Master,2.0,0,1400,800,0,7924,4528,199232
+Norway,Bodø,Nord University,Marine Biology,Bachelor,3.0,0,850,700,0,4811,3962,185082
+Finland,Jyväskylä,University of Jyväskylä,Data Science,Master,2.0,0,750,650,0,4245,3679,109238
+Germany,Darmstadt,TU Darmstadt,Computer Engineering,Master,2.0,0,950,900,0,5377,5094,139236
+Denmark,Kolding,University of Southern Denmark,Software Engineering,PhD,4.0,0,900,800,0,5094,4528,262624
+Norway,Gjøvik,NTNU Gjøvik,Information Security,Master,2.0,0,800,700,0,4528,3962,116596
+Finland,Lappeenranta,LUT University,Industrial Engineering,Master,2.0,0,700,650,0,3962,3679,102446
+Germany,Bremen,University of Bremen,Robotics,Master,2.0,0,900,900,0,5094,5094,132444
+Denmark,Esbjerg,University of Southern Denmark,Environmental Engineering,Master,2.0,0,850,800,0,4811,4528,124520
+Norway,Kristiansand,University of Agder,Renewable Energy,PhD,4.0,0,850,700,0,4811,3962,246776
+Finland,Kuopio,University of Eastern Finland,Environmental Science,Bachelor,3.0,0,700,650,0,3962,3679,153669
+Germany,Aachen,RWTH Aachen,Materials Science,Master,2.0,0,1000,900,0,5660,5094,146028
+Denmark,Slagelse,University of Copenhagen,Bioinformatics,Master,2.0,0,900,800,0,5094,4528,131312
+Norway,Horten,University of South-Eastern Norway,Systems Engineering,Master,2.0,0,800,700,0,4528,3962,116596
+Finland,Joensuu,University of Eastern Finland,Forestry Sciences,PhD,4.0,0,650,650,0,3679,3679,191308
+Germany,Jena,University of Jena,Photonics,Master,2.0,0,850,900,0,4811,5094,125652
+Denmark,Herning,Aarhus University,Engineering Management,Master,2.0,0,800,800,0,4528,4528,117728
+New Zealand,Auckland,University of Auckland,Computer Science,Master,2.0,32000,1200,600,181120,6792,3396,350920
+USA,Boston,Northeastern University,Data Science,Master,2.0,54000,2000,1500,305640,11320,8490,594300
+Sweden,Stockholm,KTH Royal Institute,Engineering Physics,Master,2.0,0,1100,750,0,6226,4245,157914
+Netherlands,Amsterdam,University of Amsterdam,Artificial Intelligence,PhD,4.0,15000,1300,720,84900,7358,4075,454384
+Portugal,Lisbon,University of Lisbon,Computer Engineering,Master,2.0,7000,800,400,39620,4528,2264,152820
+New Zealand,Wellington,Victoria University,Data Analytics,Master,2.0,30000,1100,600,169800,6226,3396,326016
+USA,Austin,UT Austin,Robotics,PhD,5.0,48000,1600,1500,271680,9056,8490,857490
+Sweden,Uppsala,Uppsala University,Mathematics,Bachelor,3.0,0,900,750,0,5094,4245,196119
+Netherlands,Rotterdam,Erasmus University,Business Analytics,Master,2.0,14500,1200,720,82070,6792,4075,253228
+Portugal,Porto,University of Porto,Software Engineering,Master,2.0,6500,700,400,36790,3962,2264,136406
+New Zealand,Christchurch,University of Canterbury,Mechanical Engineering,PhD,4.0,31000,950,600,175460,5377,3396,447140
+USA,San Diego,UC San Diego,Biotechnology,Master,2.0,49000,1900,1500,277340,10754,8490,552416
+Sweden,Gothenburg,Chalmers University,Sustainable Energy,Master,2.0,0,950,750,0,5377,4245,137538
+Netherlands,Delft,TU Delft,Computer Science,Master,2.0,15500,1100,720,87730,6226,4075,245304
+Portugal,Coimbra,University of Coimbra,Data Science,Bachelor,3.0,6000,600,400,33960,3396,2264,163008
+New Zealand,Dunedin,University of Otago,Information Systems,Master,2.0,29000,900,600,164140,5094,3396,293188
+USA,Seattle,University of Washington,Computer Engineering,Master,2.0,51000,2100,1500,288660,11886,8490,590904
+Sweden,Lund,Lund University,Physics,PhD,4.0,0,1000,750,0,5660,4245,288660
+Netherlands,Eindhoven,TU Eindhoven,Artificial Intelligence,Master,2.0,14800,950,720,83768,5377,4075,220966
+Portugal,Braga,University of Minho,Computer Science,Master,2.0,6200,550,400,35092,3113,2264,114332
+New Zealand,Hamilton,University of Waikato,Environmental Science,Master,2.0,28500,850,600,161310,4811,3396,283566
+USA,Atlanta,Georgia Tech,Machine Learning,PhD,5.0,48000,1700,1500,271680,9622,8490,891450
+Sweden,Linköping,Linköping University,Computer Science,Master,2.0,0,850,750,0,4811,4245,123954
+Netherlands,Utrecht,Utrecht University,Data Science,Bachelor,3.0,13900,1100,720,78674,6226,4075,315035
+Portugal,Aveiro,University of Aveiro,Robotics,PhD,4.0,6800,500,400,38488,2830,2264,183384
+New Zealand,Palmerston North,Massey University,Computer Engineering,Bachelor,3.0,27500,800,600,155650,4528,3396,328846
+USA,Pittsburgh,Carnegie Mellon,Software Engineering,Master,2.0,56000,1500,1500,316960,8490,8490,537700
+Sweden,Umeå,Umeå University,Artificial Intelligence,Master,2.0,0,800,750,0,4528,4245,117162
+Netherlands,Groningen,University of Groningen,Computing Science,PhD,4.0,14200,900,720,80372,5094,4075,341184
+Portugal,Faro,University of Algarve,Information Systems,Master,2.0,5900,480,400,33394,2717,2264,103130
+New Zealand,Auckland,AUT University,Data Analytics,Master,2.0,29500,1150,600,166970,6509,3396,329978
+USA,Raleigh,NC State University,Computer Science,Master,2.0,47000,1400,1500,266020,7924,8490,473176
+Sweden,Karlstad,Karlstad University,Information Systems,Bachelor,3.0,0,750,750,0,4245,4245,165555
+Netherlands,Tilburg,Tilburg University,Data Science,Master,2.0,14000,950,720,79240,5377,4075,216438
+Portugal,Vila Real,UTAD,Computer Engineering,Master,2.0,5700,450,400,32262,2547,2264,97918
+New Zealand,Christchurch,Lincoln University,Environmental Computing,PhD,4.0,28000,900,600,158480,5094,3396,416576
+USA,Davis,UC Davis,Data Science,Master,2.0,48000,1600,1500,271680,9056,8490,506004
+Sweden,Växjö,Linnaeus University,Software Engineering,Master,2.0,0,700,750,0,3962,4245,103578
+Netherlands,Wageningen,Wageningen University,Bioinformatics,Master,2.0,14500,900,720,82070,5094,4075,212476
+Portugal,Funchal,University of Madeira,Computing,Bachelor,3.0,5500,400,400,31130,2264,2264,119426
+Spain,Madrid,Universidad Politécnica de Madrid,Computer Science,Master,2.0,3500,1100,750,19810,6226,4245,177724
+Italy,Milan,Politecnico di Milano,Data Engineering,Master,2.0,4000,1200,700,22640,6792,3962,193572
+Greece,Athens,National Technical University,Electrical Engineering,PhD,4.0,0,650,600,0,3679,3396,190176
+Austria,Vienna,TU Wien,Software Engineering,Master,2.0,1500,950,850,8490,5377,4811,147160
+Mexico,Mexico City,UNAM,Computer Engineering,Bachelor,4.0,800,600,400,4528,3396,2264,176592
+Spain,Barcelona,Universitat Politècnica Catalunya,Artificial Intelligence,Master,2.0,3800,1000,750,21508,5660,4245,165838
+Italy,Rome,Sapienza University,Robotics,PhD,4.0,3500,1100,700,19810,6226,3962,334506
+Greece,Thessaloniki,Aristotle University,Computer Engineering,Master,2.0,0,500,600,0,2830,3396,74712
+Austria,Graz,TU Graz,Mechanical Engineering,Bachelor,3.0,1500,750,850,8490,4245,4811,175743
+Mexico,Monterrey,Tecnológico de Monterrey,Data Science,Master,2.0,12000,700,400,67920,3962,2264,167536
+Spain,Valencia,Universitat de València,Data Science,Master,2.0,3200,800,750,18112,4528,4245,135274
+Italy,Turin,Politecnico di Torino,Computer Engineering,Master,2.0,3800,900,700,21508,5094,3962,151688
+Greece,Patras,University of Patras,Electronics,PhD,4.0,0,450,600,0,2547,3396,135840
+Austria,Linz,Johannes Kepler University,Artificial Intelligence,Master,2.0,1500,700,850,8490,3962,4811,113200
+Mexico,Guadalajara,Universidad de Guadalajara,Software Engineering,Bachelor,4.0,900,500,400,5094,2830,2264,149990
+Spain,Seville,Universidad de Sevilla,Robotics,Master,2.0,3000,750,750,16980,4245,4245,127350
+Italy,Bologna,University of Bologna,Information Technology,PhD,4.0,3600,950,700,20376,5377,3962,294320
+Greece,Heraklion,University of Crete,Computer Science,Master,2.0,0,480,600,0,2717,3396,72000
+Austria,Salzburg,University of Salzburg,Data Analytics,Bachelor,3.0,1500,800,850,8490,4528,4811,185931
+Mexico,Puebla,UDLAP,Computer Engineering,Master,2.0,10000,450,400,56600,2547,2264,122256
+Spain,Bilbao,University of the Basque Country,Computer Science,PhD,4.0,3400,850,750,19244,4811,4245,267152
+Italy,Florence,University of Florence,Cybersecurity,Master,2.0,3500,1000,700,19810,5660,3962,163574
+Greece,Volos,University of Thessaly,Digital Systems,Master,2.0,0,400,600,0,2264,3396,61128
+Austria,Innsbruck,University of Innsbruck,Mechatronics,Master,2.0,1500,780,850,8490,4415,4811,124072
+Mexico,Queretaro,Tecnologico de Monterrey,Data Analytics,Bachelor,4.0,11000,480,400,62260,2717,2264,201732
+Spain,Granada,University of Granada,Artificial Intelligence,Master,2.0,2800,700,750,15848,3962,4245,119426
+Italy,Naples,University of Naples,Software Engineering,PhD,4.0,3200,800,700,18112,4528,3962,251304
+Greece,Ioannina,University of Ioannina,Information Systems,Bachelor,4.0,0,380,600,0,2151,3396,116832
+Austria,Klagenfurt,University of Klagenfurt,Data Science,Master,2.0,1500,720,850,8490,4075,4811,115912
+Mexico,Merida,Universidad Autonoma de Yucatan,Computer Engineering,Master,2.0,3500,400,400,19810,2264,2264,78674
+Spain,Zaragoza,University of Zaragoza,Robotics,Master,2.0,2900,650,750,16414,3679,4245,113200
+Italy,Pisa,University of Pisa,Computer Engineering,Master,2.0,3300,850,700,18678,4811,3962,142066
+Greece,Rhodes,University of the Aegean,Digital Innovation,Master,2.0,0,420,600,0,2377,3396,63840
+Austria,Leoben,Montanuniversität Leoben,Industrial Engineering,PhD,4.0,1500,700,850,8490,3962,4811,217910
+Mexico,Tijuana,CETYS Universidad,Information Technology,Bachelor,4.0,9500,550,400,53770,3113,2264,212250
+Spain,Salamanca,University of Salamanca,Data Science,PhD,4.0,3100,600,750,17546,3396,4245,197534
+Italy,Padua,University of Padua,Artificial Intelligence,Master,2.0,3400,900,700,19244,5094,3962,149424
+Greece,Chania,Technical University of Crete,Electronic Engineering,Master,2.0,0,450,600,0,2547,3396,67920
+Austria,Dornbirn,FH Vorarlberg,Software Development,Bachelor,3.0,1500,800,850,8490,4528,4811,185931
+Mexico,San Luis Potosi,UASLP,Computer Systems,Master,2.0,2800,380,400,15848,2151,2264,72000
+Turkey,Istanbul,Bogazici University,Computer Engineering,Master,2.0,1500,600,500,8490,3396,2830,95654
+Greece,Athens,Athens University of Economics,Data Science,Master,2.0,0,650,600,0,3679,3396,95088
+Belgium,Leuven,KU Leuven,Artificial Intelligence,PhD,4.0,3800,950,800,21508,5377,4528,297716
+Hungary,Budapest,Budapest University of Technology,Software Engineering,Master,2.0,6500,500,450,36790,2830,2547,109804
+Russia,Moscow,Moscow State University,Computer Science,Bachelor,4.0,5500,600,400,31130,3396,2264,203194
+Turkey,Ankara,Middle East Technical University,Data Engineering,Master,2.0,1200,450,500,6792,2547,2830,73580
+Greece,Thessaloniki,University of Macedonia,Information Systems,PhD,4.0,0,500,600,0,2830,3396,149424
+Belgium,Ghent,Ghent University,Computer Science,Master,2.0,3500,850,800,19810,4811,4528,144330
+Hungary,Debrecen,University of Debrecen,Mechatronics,Bachelor,3.0,5800,400,450,32828,2264,2547,121973
+Russia,Saint Petersburg,ITMO University,Data Science,Master,2.0,5000,550,400,28300,3113,2264,107540
+Turkey,Izmir,Ege University,Electronics Engineering,PhD,4.0,1300,400,500,7358,2264,2830,127350
+Greece,Patras,University of Patras,Computer Engineering,Master,2.0,0,450,600,0,2547,3396,67920
+Belgium,Brussels,Vrije Universiteit Brussel,Robotics,Master,2.0,3600,900,800,20376,5094,4528,151688
+Hungary,Szeged,University of Szeged,Computer Science,PhD,4.0,6000,380,450,33960,2151,2547,147396
+Russia,Novosibirsk,Novosibirsk State University,Mathematics,Master,2.0,4800,400,400,27168,2264,2264,86032
+Turkey,Eskisehir,Anadolu University,Information Systems,Bachelor,4.0,1000,350,500,5660,1981,2830,112068
+Greece,Heraklion,University of Crete,Data Analytics,Master,2.0,0,480,600,0,2717,3396,72000
+Belgium,Antwerp,University of Antwerp,Computer Science,PhD,4.0,3700,800,800,20942,4528,4528,256398
+Hungary,Pecs,University of Pecs,Software Development,Master,2.0,5500,350,450,31130,1981,2547,83768
+Russia,Kazan,Kazan Federal University,Artificial Intelligence,Bachelor,4.0,4500,380,400,25470,2151,2264,137774
+Turkey,Bursa,Uludag University,Computer Science,Master,2.0,1100,380,500,6226,2151,2830,63510
+Greece,Volos,University of Thessaly,Cybersecurity,PhD,4.0,0,400,600,0,2264,3396,122256
+Belgium,Louvain,UCLouvain,Data Engineering,Master,2.0,3500,780,800,19810,4415,4528,134826
+Hungary,Gyor,Szechenyi Istvan University,Robotics,Bachelor,3.0,5200,320,450,29432,1811,2547,102269
+Russia,Tomsk,Tomsk State University,Software Engineering,Master,2.0,4600,350,400,26036,1981,2264,78108
+Turkey,Antalya,Akdeniz University,Data Science,PhD,4.0,1400,420,500,7924,2377,2830,133340
+Greece,Piraeus,University of Piraeus,Information Technology,Master,2.0,0,550,600,0,3113,3396,81504
+Belgium,Hasselt,Hasselt University,Artificial Intelligence,Bachelor,3.0,3400,750,800,19244,4245,4528,185648
+Hungary,Miskolc,University of Miskolc,Computer Engineering,Master,2.0,5300,300,450,29998,1698,2547,75844
+Russia,Yekaterinburg,Ural Federal University,Data Analytics,PhD,4.0,4700,400,400,26602,2264,2264,144330
+Turkey,Kayseri,Erciyes University,Software Engineering,Master,2.0,1200,350,500,6792,1981,2830,59996
+Greece,Xanthi,Democritus University,Computer Engineering,Bachelor,4.0,0,380,600,0,2151,3396,116832
+Belgium,Liege,University of Liege,Data Science,PhD,4.0,3600,720,800,20376,4075,4528,234088
+Hungary,Veszprem,University of Pannonia,Information Systems,Master,2.0,5100,310,450,28866,1755,2547,76080
+Russia,Samara,Samara State University,Computer Science,Master,2.0,4400,370,400,24904,2094,2264,79688
+Turkey,Konya,Selcuk University,Artificial Intelligence,Bachelor,4.0,1000,330,500,5660,1868,2830,106644
+Greece,Chios,University of the Aegean,Digital Systems,Master,2.0,0,400,600,0,2264,3396,61128
+Belgium,Mons,University of Mons,Computer Engineering,Master,2.0,3500,700,800,19810,3962,4528,123954
+Hungary,Kecskemet,John von Neumann University,Data Analytics,PhD,4.0,5400,290,450,30564,1641,2547,119520
+Russia,Rostov-on-Don,Southern Federal University,Information Technology,Bachelor,4.0,4200,350,400,23772,1981,2264,127916
+Brazil,Sao Paulo,University of Sao Paulo,Computer Science,Master,2.0,0,600,400,0,3396,2264,86032
+India,Bangalore,Indian Institute of Science,Data Science,PhD,4.0,2000,300,300,11320,1698,1698,99616
+Thailand,Bangkok,Chulalongkorn University,Software Engineering,Master,2.0,15000,500,350,84900,2830,1981,156782
+Egypt,Cairo,Cairo University,Computer Engineering,Bachelor,4.0,2500,250,200,14150,1415,1132,86598
+Singapore,Singapore,National University of Singapore,Artificial Intelligence,Master,2.0,42000,1200,800,237720,6792,4528,409784
+UAE,Dubai,University of Dubai,Data Analytics,Master,2.0,25000,1100,750,141500,6226,4245,299414
+Brazil,Rio de Janeiro,PUC-Rio,Information Systems,PhD,4.0,8000,550,400,45280,3113,2264,203760
+India,Mumbai,IIT Bombay,Computer Engineering,Master,2.0,1800,350,300,10188,1981,1698,61128
+Thailand,Chiang Mai,Chiang Mai University,Data Science,Bachelor,4.0,12000,300,350,67920,1698,1981,157348
+Singapore,Singapore,Nanyang Technological University,Computer Science,PhD,4.0,40000,1100,800,226400,6226,4528,543360
+UAE,Abu Dhabi,Khalifa University,Robotics,Master,2.0,27000,1000,750,152820,5660,4245,297150
+Brazil,Campinas,UNICAMP,Computer Engineering,Master,2.0,0,450,400,0,2547,2264,65656
+India,Delhi,IIT Delhi,Artificial Intelligence,PhD,4.0,1900,320,300,10754,1811,1698,104474
+Thailand,Khon Kaen,Khon Kaen University,Information Technology,Master,2.0,11000,250,350,62260,1415,1981,100182
+Egypt,Alexandria,Alexandria University,Software Engineering,Master,2.0,2200,200,200,12452,1132,1132,41884
+Singapore,Singapore,Singapore Management University,Data Analytics,Bachelor,4.0,38000,1150,800,215080,6509,4528,545624
+UAE,Sharjah,American University of Sharjah,Computer Science,PhD,4.0,26000,900,750,147160,5094,4245,408652
+Brazil,Porto Alegre,UFRGS,Data Science,Bachelor,4.0,0,400,400,0,2264,2264,117728
+India,Chennai,IIT Madras,Software Engineering,Master,2.0,1700,280,300,9622,1585,1698,51058
+Thailand,Phuket,Prince of Songkla University,Computer Engineering,Master,2.0,10000,300,350,56600,1698,1981,101314
+Egypt,Giza,Ain Shams University,Data Science,PhD,4.0,2400,220,200,13584,1245,1132,77872
+Singapore,Singapore,Singapore University of Technology,Artificial Intelligence,Master,2.0,39000,1100,800,220740,6226,4528,379220
+UAE,Ajman,Ajman University,Information Systems,Bachelor,4.0,23000,800,750,130180,4528,4245,364504
+Brazil,Recife,UFPE,Computer Engineering,Master,2.0,0,350,400,0,1981,2264,52072
+India,Hyderabad,IIT Hyderabad,Data Analytics,PhD,4.0,1800,260,300,10188,1472,1698,87636
+Thailand,Hat Yai,Prince of Songkla University,Software Engineering,Bachelor,4.0,9500,280,350,53770,1585,1981,137774
+Egypt,Port Said,Port Said University,Computer Science,Master,2.0,2100,180,200,11886,1019,1132,38606
+Singapore,Singapore,SUTD,Robotics,PhD,4.0,37000,1050,800,209420,5943,4528,512796
+UAE,Al Ain,UAE University,Data Science,Master,2.0,24000,750,750,135840,4245,4245,246210
+Brazil,Florianopolis,UFSC,Information Technology,PhD,4.0,0,400,400,0,2264,2264,117728
+India,Pune,IIT Pune,Computer Science,Master,2.0,1600,250,300,9056,1415,1698,46412
+Thailand,Nakhon Ratchasima,Suranaree University,Data Engineering,Master,2.0,9000,250,350,50940,1415,1981,88862
+Egypt,Mansoura,Mansoura University,Information Systems,Bachelor,4.0,2000,170,200,11320,962,1132,62024
+Singapore,Singapore,SIM Global Education,Software Engineering,Bachelor,4.0,35000,1000,800,198100,5660,4528,487892
+UAE,Ras Al Khaimah,RAK University,Computer Engineering,Master,2.0,22000,700,750,124520,3962,4245,228098
+Brazil,Salvador,UFBA,Data Science,Master,2.0,0,380,400,0,2151,2264,56152
+India,Kanpur,IIT Kanpur,Artificial Intelligence,PhD,4.0,1900,240,300,10754,1358,1698,82730
+Thailand,Songkhla,Thaksin University,Computer Engineering,Bachelor,4.0,8500,270,350,48110,1528,1981,129378
+Egypt,Aswan,Aswan University,Data Analytics,Master,2.0,1900,160,200,10754,906,1132,34762
+UAE,Fujairah,Fujairah University,Information Technology,Bachelor,4.0,21000,650,750,118860,3679,4245,312432
+Iceland,Reykjavik,University of Iceland,Computer Science,Master,2.0,0,1200,900,0,6792,5094,173196
+Colombia,Bogota,Universidad Nacional,Software Engineering,Master,2.0,3500,400,300,19810,2264,1698,77542
+Poland,Warsaw,University of Warsaw,Data Science,PhD,4.0,3000,650,400,16980,3679,2264,202628
+Romania,Bucharest,University Politehnica,Computer Engineering,Bachelor,3.0,2500,450,350,14150,2547,1981,111785
+Luxembourg,Luxembourg City,University of Luxembourg,Artificial Intelligence,Master,2.0,400,1400,800,2264,7924,4528,201496
+Indonesia,Jakarta,University of Indonesia,Information Systems,Master,2.0,5000,400,250,28300,2264,1415,85466
+Iceland,Akureyri,University of Akureyri,Data Analytics,Bachelor,3.0,0,900,900,0,5094,5094,198666
+Colombia,Medellin,Universidad de Antioquia,Computer Science,PhD,4.0,4000,350,300,22640,1981,1698,124520
+Poland,Krakow,Jagiellonian University,Software Development,Master,2.0,2800,600,400,15848,3396,2264,101880
+Romania,Cluj-Napoca,Babes-Bolyai University,Data Science,Master,2.0,2200,400,350,12452,2264,1981,70750
+Luxembourg,Esch-sur-Alzette,Luxembourg School of Business,Data Engineering,Master,2.0,400,1200,800,2264,6792,4528,174328
+Indonesia,Bandung,Institut Teknologi Bandung,Computer Engineering,PhD,4.0,4500,300,250,25470,1698,1415,112634
+Iceland,Reykjavik,Reykjavik University,Robotics,Master,2.0,0,1150,900,0,6509,5094,166404
+Colombia,Cali,Universidad del Valle,Information Technology,Bachelor,4.0,3200,300,300,18112,1698,1698,106408
+Poland,Wroclaw,Wroclaw University of Technology,Artificial Intelligence,Master,2.0,2600,550,400,14716,3113,2264,93956
+Romania,Timisoara,Politehnica University,Software Engineering,PhD,4.0,2400,380,350,13584,2151,1981,124756
+Luxembourg,Belval,Luxembourg Institute of Science,Computer Science,Bachelor,3.0,400,1100,800,2264,6226,4528,239984
+Indonesia,Yogyakarta,Gadjah Mada University,Data Science,Master,2.0,4000,250,250,22640,1415,1415,59430
+Iceland,Hafnarfjordur,Iceland University of Arts,Digital Design,Master,2.0,0,1000,900,0,5660,5094,146028
+Colombia,Barranquilla,Universidad del Norte,Computer Engineering,Master,2.0,3800,280,300,21508,1585,1698,62944
+Poland,Poznan,Adam Mickiewicz University,Computer Science,PhD,4.0,2700,580,400,15282,3283,2264,181922
+Romania,Iasi,Alexandru Ioan Cuza University,Information Systems,Master,2.0,2100,350,350,11886,1981,1981,63392
+Luxembourg,Kirchberg,Sacred Heart University,Data Analytics,Master,2.0,400,1300,800,2264,7358,4528,187912
+Indonesia,Surabaya,Institut Teknologi Sepuluh,Software Engineering,Bachelor,4.0,3800,280,250,21508,1585,1415,103248
+Iceland,Kopavogur,Bifrost University,Digital Business,Bachelor,3.0,0,950,900,0,5377,5094,208854
+Colombia,Bucaramanga,UIS,Data Science,PhD,4.0,3500,260,300,19810,1472,1698,97258
+Poland,Gdansk,Gdansk University of Technology,Cybersecurity,Master,2.0,2500,520,400,14150,2943,2264,89310
+Romania,Brasov,Transilvania University,Computer Engineering,Bachelor,4.0,2000,330,350,11320,1868,1981,108908
+Luxembourg,Differdange,Miami University Dolibois,Information Technology,Master,2.0,400,1150,800,2264,6509,4528,167536
+Indonesia,Malang,Brawijaya University,Artificial Intelligence,Master,2.0,3500,240,250,19810,1358,1415,55232
+Poland,Lodz,Lodz University of Technology,Software Engineering,Master,2.0,2400,500,400,13584,2830,2264,86032
+Romania,Constanta,Ovidius University,Data Analytics,Master,2.0,1900,320,350,10754,1811,1981,58180
+Luxembourg,Walferdange,European Business University,Digital Innovation,Bachelor,3.0,400,1100,800,2264,6226,4528,239984
+Indonesia,Semarang,Diponegoro University,Computer Science,PhD,4.0,3200,220,250,18112,1245,1415,83532
+Iceland,Borgarnes,Agricultural University,Data Systems,Master,2.0,0,900,900,0,5094,5094,132444
+Colombia,Cartagena,Universidad de Cartagena,Information Systems,Master,2.0,3300,290,300,18678,1641,1698,61458
+Poland,Katowice,University of Silesia,Computer Engineering,Bachelor,3.0,2300,480,400,13018,2717,2264,117622
+Romania,Craiova,University of Craiova,Software Development,PhD,4.0,2200,300,350,12452,1698,1981,101880
+Luxembourg,Bertrange,Chamber of Commerce School,Business Analytics,Master,2.0,400,1050,800,2264,5943,4528,153952
+Indonesia,Denpasar,Udayana University,Information Technology,Master,2.0,3000,200,250,16980,1132,1415,46978
+Tunisia,Tunis,University of Tunis,Computer Science,Master,2.0,1500,250,200,8490,1415,1132,44714
+Cyprus,Nicosia,University of Cyprus,Data Science,Master,2.0,8000,600,500,45280,3396,2830,132444
+Croatia,Zagreb,University of Zagreb,Software Engineering,PhD,4.0,4000,450,400,22640,2547,2264,153952
+Dominican Republic,Santo Domingo,INTEC,Computer Engineering,Bachelor,4.0,6000,350,300,33960,1981,1698,135840
+Morocco,Rabat,Mohammed V University,Information Systems,Master,2.0,2000,300,250,11320,1698,1415,54902
+Peru,Lima,PUCP,Data Analytics,Master,2.0,8500,400,350,48110,2264,1981,106408
+Argentina,Buenos Aires,University of Buenos Aires,Computer Science,PhD,4.0,0,350,280,0,1981,1585,101428
+Tunisia,Sfax,University of Sfax,Artificial Intelligence,Master,2.0,1400,200,200,7924,1132,1132,37356
+Cyprus,Limassol,Cyprus University of Technology,Software Development,Bachelor,4.0,7500,550,500,42450,3113,2830,203194
+Croatia,Split,University of Split,Data Engineering,Master,2.0,3800,400,400,21508,2264,2264,80372
+Dominican Republic,Santiago,PUCMM,Information Technology,Master,2.0,5500,300,300,31130,1698,1698,75278
+Morocco,Casablanca,Hassan II University,Computer Engineering,PhD,4.0,2200,350,250,12452,1981,1415,113200
+Peru,Arequipa,Universidad San Agustin,Software Engineering,Bachelor,4.0,7000,300,350,39620,1698,1981,129048
+Argentina,Cordoba,National University of Cordoba,Data Science,Master,2.0,0,280,280,0,1585,1585,41210
+Tunisia,Sousse,University of Sousse,Computer Systems,Bachelor,3.0,1300,180,200,7358,1019,1132,47438
+Cyprus,Larnaca,American University Cyprus,Artificial Intelligence,PhD,4.0,8200,500,500,46412,2830,2830,193572
+Croatia,Rijeka,University of Rijeka,Information Systems,Master,2.0,3500,380,400,19810,2151,2264,75962
+Dominican Republic,La Romana,Universidad Central Este,Computer Science,Bachelor,4.0,5000,280,300,28300,1585,1698,111172
+Morocco,Fez,University of Al Quaraouiyine,Data Analytics,Master,2.0,1800,250,250,10188,1415,1415,46978
+Peru,Trujillo,Universidad Nacional de Trujillo,Software Development,PhD,4.0,7500,280,350,42450,1585,1981,126454
+Argentina,Rosario,National University of Rosario,Computer Engineering,Master,2.0,0,260,280,0,1472,1585,38498
+Tunisia,Monastir,University of Monastir,Data Science,PhD,4.0,1600,170,200,9056,962,1132,59760
+Cyprus,Famagusta,Eastern Mediterranean University,Software Engineering,Master,2.0,7800,480,500,44148,2717,2830,115016
+Croatia,Osijek,University of Osijek,Computer Science,Bachelor,3.0,3200,350,400,18112,1981,2264,96220
+Dominican Republic,San Pedro,UCNE,Information Systems,Master,2.0,4800,260,300,27168,1472,1698,65892
+Morocco,Marrakech,Cadi Ayyad University,Artificial Intelligence,PhD,4.0,2100,280,250,11886,1585,1415,93626
+Peru,Cusco,Universidad San Antonio Abad,Data Analytics,Master,2.0,6800,260,350,38488,1472,1981,77778
+Argentina,La Plata,National University of La Plata,Software Development,Bachelor,4.0,0,240,280,0,1358,1585,71524
+Tunisia,Gabes,University of Gabes,Computer Engineering,Master,2.0,1400,160,200,7924,906,1132,31932
+Croatia,Zadar,University of Zadar,Information Technology,PhD,4.0,3600,370,400,20376,2094,2264,129944
+Cyprus,Paphos,Neapolis University,Data Science,Bachelor,3.0,7400,450,500,41884,2547,2830,142066
+Dominican Republic,Puerto Plata,UTESA,Computer Science,PhD,4.0,4500,250,300,25470,1415,1698,100182
+Morocco,Tangier,Abdelmalek Essaadi University,Software Engineering,Master,2.0,1900,260,250,10754,1472,1415,48912
+Peru,Piura,Universidad de Piura,Information Systems,Master,2.0,7200,250,350,40752,1415,1981,78674
+Argentina,Mendoza,National University of Cuyo,Data Analytics,PhD,4.0,0,230,280,0,1302,1585,68836
+Tunisia,Bizerte,University of Carthage,Artificial Intelligence,Bachelor,3.0,1200,150,200,6792,849,1132,40752
+Cyprus,Girne,Girne American University,Computer Engineering,Master,2.0,7600,430,500,43016,2434,2830,107092
+Croatia,Dubrovnik,University of Dubrovnik,Software Development,Master,2.0,3400,390,400,19244,2207,2264,76740
+Morocco,Oujda,Mohammed I University,Computer Science,Bachelor,4.0,1700,240,250,9622,1358,1415,80466
+Peru,Chiclayo,Universidad San Martin,Data Engineering,PhD,4.0,6500,240,350,36790,1358,1981,109898
+Ecuador,Quito,Universidad San Francisco,Computer Science,Master,2.0,8500,400,300,48110,2264,1698,105842
+Lebanon,Beirut,American University of Beirut,Data Science,Master,2.0,20000,600,500,113200,3396,2830,200364
+Bahrain,Manama,University of Bahrain,Software Engineering,Bachelor,4.0,7000,700,600,39620,3962,3396,243380
+Uruguay,Montevideo,Universidad de la Republica,Computer Engineering,PhD,4.0,0,450,350,0,2547,1981,130180
+Bulgaria,Sofia,Sofia University,Information Systems,Master,2.0,3500,400,300,19810,2264,1698,77542
+Ghana,Accra,University of Ghana,Data Analytics,Master,2.0,4500,300,250,25470,1698,1415,69052
+Algeria,Algiers,University of Science and Technology,Computer Science,Bachelor,3.0,1200,250,200,6792,1415,1132,61128
+Panama,Panama City,Universidad Tecnologica,Artificial Intelligence,Master,2.0,7500,600,400,42450,3396,2264,128482
+Ecuador,Guayaquil,ESPOL,Software Development,PhD,4.0,7800,350,300,44148,1981,1698,146028
+Lebanon,Byblos,Lebanese American University,Data Engineering,Master,2.0,18000,500,500,101880,2830,2830,175460
+Bahrain,Riffa,Royal University for Women,Information Technology,Master,2.0,8000,650,600,45280,3679,3396,140368
+Uruguay,Salto,Universidad ORT Uruguay,Computer Science,Master,2.0,6500,380,350,36790,2151,1981,92376
+Bulgaria,Plovdiv,Plovdiv University,Data Science,Bachelor,3.0,3200,350,300,18112,1981,1698,94522
+Ghana,Kumasi,Kwame Nkrumah University,Software Engineering,PhD,4.0,4200,250,250,23772,1415,1415,97352
+Algeria,Oran,University of Oran,Computer Engineering,Master,2.0,1100,220,200,6226,1245,1132,38370
+Panama,David,ISAE University,Data Analytics,Bachelor,4.0,6800,450,400,38488,2547,2264,169800
+Ecuador,Cuenca,Universidad de Cuenca,Information Systems,Master,2.0,7200,320,300,40752,1811,1698,87612
+Lebanon,Tripoli,Lebanese University,Computer Science,PhD,4.0,2000,400,500,11320,2264,2830,131312
+Bahrain,Isa Town,Bahrain Polytechnic,Software Development,Bachelor,4.0,6500,600,600,36790,3396,3396,213382
+Uruguay,Maldonado,Universidad Catolica,Data Science,Master,2.0,7000,400,350,39620,2264,1981,97918
+Bulgaria,Varna,Technical University Varna,Computer Engineering,Master,2.0,3100,330,300,17546,1868,1698,65774
+Ghana,Cape Coast,University of Cape Coast,Information Technology,Master,2.0,4000,230,250,22640,1302,1415,56718
+Algeria,Constantine,University of Constantine,Data Analytics,PhD,4.0,1300,200,200,7358,1132,1132,66222
+Panama,Santiago,Universidad Latina,Computer Science,Master,2.0,6500,400,400,36790,2264,2264,95654
+Ecuador,Loja,UTPL,Artificial Intelligence,Bachelor,3.0,6800,300,300,38488,1698,1698,104710
+Lebanon,Jounieh,Holy Spirit University,Software Engineering,Master,2.0,16000,450,500,90560,2547,2830,157348
+Bahrain,Sakhir,Arabian Gulf University,Data Science,PhD,4.0,9000,620,600,50940,3509,3396,232956
+Uruguay,Rivera,UTEC,Information Systems,Bachelor,4.0,0,350,350,0,1981,1981,103012
+Bulgaria,Burgas,Burgas Free University,Computer Science,Master,2.0,2900,320,300,16414,1811,1698,63274
+Ghana,Tamale,University for Development,Software Development,PhD,4.0,3800,200,250,21508,1132,1415,81504
+Algeria,Annaba,Badji Mokhtar University,Computer Engineering,Master,2.0,1000,180,200,5660,1019,1132,32380
+Panama,Chitré,Quality Leadership University,Data Analytics,Bachelor,3.0,6200,380,400,35092,2151,2264,119320
+Ecuador,Ambato,Universidad Tecnica,Information Technology,PhD,4.0,6500,280,300,36790,1585,1698,119662
+Lebanon,Sidon,Lebanese International,Computer Science,Bachelor,4.0,15000,420,500,84900,2377,2830,210316
+Bahrain,Muharraq,Applied Science University,Data Engineering,Master,2.0,7500,580,600,42450,3283,3396,128034
+Uruguay,Paysandu,Universidad de Paysandu,Software Engineering,Master,2.0,0,330,350,0,1868,1981,48794
+Bulgaria,Ruse,University of Ruse,Artificial Intelligence,PhD,4.0,3300,300,300,18678,1698,1698,106974
+Ghana,Ho,University of Health Sciences,Data Science,Master,2.0,3500,180,250,19810,1019,1415,47096
+Algeria,Tlemcen,University of Tlemcen,Information Systems,Bachelor,3.0,900,160,200,5094,906,1132,41106
+Panama,La Chorrera,Universidad Metropolitana,Computer Science,Master,2.0,6000,350,400,33960,1981,2264,86032
+Bangladesh,Dhaka,Bangladesh University of Engineering,Computer Science,Master,2.0,2500,250,200,14150,1415,1132,50374
+Kuwait,Kuwait City,Kuwait University,Data Science,Master,2.0,3500,800,700,19810,4528,3962,136406
+Ukraine,Kyiv,Igor Sikorsky Kyiv Polytechnic,Software Engineering,Bachelor,4.0,3800,400,300,21508,2264,1698,136972
+Slovenia,Ljubljana,University of Ljubljana,Computer Engineering,PhD,4.0,4500,500,450,25470,2830,2547,171498
+Serbia,Belgrade,University of Belgrade,Information Systems,Master,2.0,2800,350,320,15848,1981,1811,67014
+Iran,Tehran,Sharif University of Technology,Data Analytics,Master,2.0,3000,400,280,16980,2264,1585,74486
+Uzbekistan,Tashkent,INHA University Tashkent,Computer Science,Bachelor,4.0,4200,300,250,23772,1698,1415,110936
+El Salvador,San Salvador,Universidad Don Bosco,Software Development,Master,2.0,5500,400,300,31130,2264,1698,88862
+Bangladesh,Chittagong,CUET,Artificial Intelligence,PhD,4.0,2200,200,200,12452,1132,1132,71316
+Kuwait,Hawalli,American University Kuwait,Data Engineering,Master,2.0,15000,750,700,84900,4245,3962,194704
+Ukraine,Lviv,Lviv Polytechnic,Computer Science,Master,2.0,3500,350,300,19810,1981,1698,70750
+Slovenia,Maribor,University of Maribor,Data Science,Master,2.0,4200,450,450,23772,2547,2547,89994
+Serbia,Novi Sad,University of Novi Sad,Software Engineering,PhD,4.0,2600,320,320,14716,1811,1811,108888
+Iran,Isfahan,Isfahan University of Technology,Information Systems,Bachelor,3.0,2800,350,280,15848,1981,1585,91919
+Uzbekistan,Samarkand,Samarkand State University,Data Analytics,Master,2.0,3800,250,250,21508,1415,1415,58298
+El Salvador,Santa Ana,Universidad Catolica,Computer Engineering,Bachelor,4.0,5000,350,300,28300,1981,1698,130180
+Bangladesh,Khulna,Khulna University,Software Development,Master,2.0,2100,180,200,11886,1019,1132,38606
+Kuwait,Al Jahra,Gulf University for Science,Artificial Intelligence,PhD,4.0,14000,700,700,79240,3962,3962,285264
+Ukraine,Kharkiv,Kharkiv Polytechnic,Data Science,Master,2.0,3400,330,300,19244,1868,1698,67472
+Slovenia,Koper,University of Primorska,Information Technology,Bachelor,3.0,4000,420,450,22640,2377,2547,115853
+Serbia,Nis,University of Nis,Computer Engineering,Master,2.0,2500,300,320,14150,1698,1811,58524
+Iran,Mashhad,Ferdowsi University,Data Analytics,PhD,4.0,2900,320,280,16414,1811,1585,109682
+Uzbekistan,Bukhara,Bukhara State University,Computer Science,Bachelor,4.0,3500,220,250,19810,1245,1415,85230
+El Salvador,San Miguel,Universidad de Oriente,Information Systems,Master,2.0,4800,320,300,27168,1811,1698,74028
+Bangladesh,Rajshahi,RUET,Software Engineering,Master,2.0,2000,170,200,11320,962,1132,36672
+Kuwait,Salmiya,Australian College Kuwait,Data Science,Bachelor,3.0,13500,680,700,76410,3849,3962,226860
+Ukraine,Odesa,Odesa Polytechnic,Artificial Intelligence,PhD,4.0,3600,320,300,20376,1811,1698,114096
+Slovenia,Nova Gorica,University of Nova Gorica,Computer Science,Master,2.0,4100,400,450,23206,2264,2547,82636
+Serbia,Kragujevac,University of Kragujevac,Data Engineering,Bachelor,4.0,2400,280,320,13584,1585,1811,96908
+Iran,Shiraz,Shiraz University,Software Development,Master,2.0,2700,300,280,15282,1698,1585,59204
+Uzbekistan,Namangan,Namangan Institute,Information Technology,Master,2.0,3400,200,250,19244,1132,1415,49242
+El Salvador,Sonsonate,Universidad de Sonsonate,Data Science,Bachelor,3.0,4500,300,300,25470,1698,1698,91692
+Bangladesh,Sylhet,SUST,Computer Engineering,PhD,4.0,2300,160,200,13018,906,1132,61034
+Kuwait,Al Ahmadi,ACK,Software Engineering,Master,2.0,13000,650,700,73580,3679,3962,169800
+Ukraine,Dnipro,Dnipro Polytechnic,Data Analytics,Master,2.0,3300,300,300,18678,1698,1698,62826
+Slovenia,Celje,Faculty of Logistics,Information Systems,Bachelor,3.0,3900,380,450,22074,2151,2547,107151
+Serbia,Subotica,University of Subotica,Computer Science,Master,2.0,2300,270,320,13018,1528,1811,53312
+Iran,Tabriz,University of Tabriz,Artificial Intelligence,PhD,4.0,2600,280,280,14716,1585,1585,97136
+Uzbekistan,Andijan,Andijan State University,Software Development,Master,2.0,3200,180,250,18112,1019,1415,45398
+El Salvador,Santa Tecla,ITCA-FEPADE,Computer Engineering,Bachelor,4.0,4200,280,300,23772,1585,1698,106644
+Malaysia,Kuala Lumpur,University of Malaya,Computer Science,Master,2.0,8500,500,400,48110,2830,2264,120558
+Saudi Arabia,Riyadh,King Saud University,Data Science,PhD,4.0,5000,800,800,28300,4528,4528,263756
+USA,Boston,Harvard University,Artificial Intelligence,Master,2.0,58000,2200,1500,328280,12452,8490,644108
+UK,London,Imperial College,Computer Engineering,Master,2.0,42000,1800,800,237720,10188,4528,491288
+Spain,Madrid,Universidad Politecnica,Software Engineering,PhD,4.0,3500,1100,750,19810,6226,4245,335638
+Italy,Milan,Politecnico di Milano,Data Analytics,Master,2.0,4000,1200,700,22640,6792,3962,193572
+France,Paris,Sorbonne University,Computer Science,Master,2.0,4500,1800,850,25470,10188,4811,279604
+Malaysia,Penang,USM,Information Systems,Bachelor,3.0,7500,450,400,42450,2547,2264,140934
+Saudi Arabia,Jeddah,King Abdulaziz University,Data Engineering,Master,2.0,4800,750,800,27168,4245,4528,138104
+USA,Stanford,Stanford University,Computer Science,PhD,5.0,52000,2300,1500,294320,13018,8490,1117850
+UK,Cambridge,University of Cambridge,Artificial Intelligence,PhD,4.0,45000,1600,800,254700,9056,4528,707500
+Spain,Barcelona,Universitat de Barcelona,Data Science,Master,2.0,3800,1000,750,21508,5660,4245,165838
+Italy,Rome,Sapienza University,Software Engineering,Bachelor,3.0,3500,1100,700,19810,6226,3962,255832
+France,Lyon,École Normale Supérieure,Computer Engineering,Master,2.0,4200,1200,850,23772,6792,4811,196402
+Malaysia,Johor Bahru,UTM,Data Analytics,PhD,4.0,8000,400,400,45280,2264,2264,163008
+Saudi Arabia,Dhahran,KFUPM,Computer Science,Master,2.0,4500,700,800,25470,3962,4528,129614
+USA,Berkeley,UC Berkeley,Data Science,Master,2.0,54000,2000,1500,305640,11320,8490,594300
+UK,Oxford,University of Oxford,Software Engineering,Master,2.0,40000,1400,800,226400,7924,4528,425632
+Spain,Valencia,Universidad de Valencia,Information Systems,PhD,4.0,3200,800,750,18112,4528,4245,252436
+Italy,Turin,Politecnico di Torino,Artificial Intelligence,Master,2.0,3800,900,700,21508,5094,3962,151688
+France,Toulouse,INSA Toulouse,Data Engineering,PhD,4.0,4300,1000,850,24338,5660,4811,315262
+Malaysia,Kuching,UNIMAS,Computer Science,Master,2.0,7000,380,400,39620,2151,2264,95772
+Saudi Arabia,Medina,Islamic University,Software Development,Bachelor,4.0,4200,650,800,23772,3679,4528,218476
+USA,MIT,Massachusetts,Robotics,PhD,5.0,56000,2100,1500,316960,11886,8490,1072570
+UK,Edinburgh,University of Edinburgh,Data Science,Master,2.0,38000,1100,800,215080,6226,4528,373560
+Spain,Seville,Universidad de Sevilla,Computer Engineering,Master,2.0,3000,750,750,16980,4245,4245,127350
+Italy,Bologna,University of Bologna,Information Systems,PhD,4.0,3600,950,700,20376,5377,3962,294320
+France,Marseille,Aix-Marseille University,Artificial Intelligence,Master,2.0,4100,1100,850,23206,6226,4811,182252
+Malaysia,Cyberjaya,Multimedia University,Data Analytics,Bachelor,3.0,7800,450,400,44148,2547,2264,142632
+Saudi Arabia,Dammam,Imam Abdulrahman University,Computer Science,Master,2.0,4600,680,800,26036,3849,4528,127468
+USA,New York,Columbia University,Data Science,Master,2.0,62000,2500,1500,350920,14150,8490,707500
+UK,Manchester,University of Manchester,Software Engineering,PhD,4.0,35000,900,800,198100,5094,4528,460724
+Spain,Granada,Universidad de Granada,Computer Science,Bachelor,3.0,2800,700,750,15848,3962,4245,171215
+Italy,Florence,University of Florence,Data Engineering,Master,2.0,3500,1000,700,19810,5660,3962,163574
+France,Bordeaux,University of Bordeaux,Information Systems,PhD,4.0,4300,1000,850,24338,5660,4811,315262
+Malaysia,Bangi,UKM,Artificial Intelligence,Master,2.0,7200,420,400,40752,2377,2264,102328
+Saudi Arabia,Taif,Taif University,Software Development,Master,2.0,4400,600,800,24904,3396,4528,115464
+USA,Los Angeles,UCLA,Computer Engineering,PhD,5.0,52000,2200,1500,294320,12452,8490,1083890
+UK,Bristol,University of Bristol,Data Analytics,Master,2.0,36000,1200,800,203760,6792,4528,375824
+Spain,Bilbao,University of the Basque Country,Information Technology,Master,2.0,3400,850,750,19244,4811,4245,143198
+Italy,Naples,University of Naples,Computer Science,Bachelor,3.0,3200,800,700,18112,4528,3962,193006
+France,Nice,University of Nice,Data Science,Master,2.0,4100,1300,850,23206,7358,4811,209420
+Malaysia,Melaka,UTeM,Software Engineering,PhD,4.0,7500,400,400,42450,2264,2264,160178
+Saudi Arabia,Tabuk,University of Tabuk,Computer Engineering,Bachelor,4.0,4100,580,800,23206,3283,4528,198902
+USA,Chicago,University of Chicago,Artificial Intelligence,Master,2.0,58000,1900,1500,328280,10754,8490,603356
+UK,Glasgow,University of Glasgow,Data Engineering,PhD,4.0,34000,950,800,192440,5377,4528,468648
+Spain,Salamanca,University of Salamanca,Information Systems,Master,2.0,3100,600,750,17546,3396,4245,107540
+Italy,Pisa,University of Pisa,Software Development,Master,2.0,3300,850,700,18678,4811,3962,142066
+France,Lille,University of Lille,Computer Science,Bachelor,3.0,4200,950,850,23772,5377,4811,231777
+Malaysia,Shah Alam,UiTM,Data Analytics,Master,2.0,7100,430,400,40186,2434,2264,103130
+Saudi Arabia,Makkah,Umm Al-Qura University,Information Technology,PhD,4.0,4300,650,800,24338,3679,4528,219042
+USA,San Francisco,Stanford University,Data Science,Master,2.0,55000,2400,1500,311300,13584,8490,654296
+UK,Leeds,University of Leeds,Computer Engineering,Master,2.0,35000,900,800,198100,5094,4528,329412
+Spain,Zaragoza,University of Zaragoza,Artificial Intelligence,PhD,4.0,2900,650,750,16414,3679,4245,209986
+Italy,Padua,University of Padua,Software Engineering,Master,2.0,3400,900,700,19244,5094,3962,149424
+France,Strasbourg,University of Strasbourg,Data Analytics,Master,2.0,4000,1000,850,22640,5660,4811,168102
+Malaysia,Nilai,USIM,Computer Science,Bachelor,3.0,6800,400,400,38488,2264,2264,126784
+Saudi Arabia,Al-Ahsa,King Faisal University,Information Systems,Master,2.0,4200,600,800,23772,3396,4528,114332
+USA,Seattle,University of Washington,Software Development,PhD,5.0,50000,2000,1500,283000,11320,8490,1004650
+UK,Nottingham,University of Nottingham,Data Engineering,Master,2.0,34000,800,800,192440,4528,4528,310168
